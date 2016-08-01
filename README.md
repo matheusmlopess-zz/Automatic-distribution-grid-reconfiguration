@@ -11,9 +11,7 @@ The multi-Agent system application designed based on automatic reconfiguration p
 (JaCaMo console runing the aplication)
 
 ![alt tag](http://i.imgur.com/FNJC5Wy.gif)
-Centrilized solution simulation using Grapstream Dijkstra's algorithm. An algorithm for finding the shortest paths between nodes in a graph.
-
-
+(Centrilized solution simulation using Grapstream Dijkstra's algorithm. An algorithm for finding the shortest paths between nodes in a graph.)
 
 Programming languages used:
 
