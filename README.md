@@ -7,9 +7,10 @@ Programming languges used:
 
 - JaCaMo framework for Multi-Agent Programming that combines three separate technologies:
    http://jacamo.sourceforge.net/
---- Jason – for programming autonomous agents
---- Cartago – for programming environment artifacts
---- Moise – for programming multi-agent organisations
+
+-- Jason – for programming autonomous agents
+-- Cartago – for programming environment artifacts
+-- Moise – for programming multi-agent organisations
 
 - OpenDSS script language.
   https://sourceforge.net/projects/electricdss/
