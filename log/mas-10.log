@@ -1,0 +1,206 @@
+[JaCaMoLauncher] Workspace grid_environment created.
+[dMS]  DMS Agent Initieted --->>[dMS]... 
+[simulationCall] 
+
+
+Workspace Dimenssion Created and Named: grid_environment
+[dMS] dMS FOUND and focusing on---> cobj_2 Or -- >initSim
+[dMS] dMS Just got in the Dimension:: grid_environment
+[simulationCall] Exogenous Environment Artifact Created & set for the Power Distribution Study System.....
+
+
+[Ag_150]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_150 created and initiented !!! [Ag_150]... 
+[Ag_150] sensoring coordenation timing for the agnt  ------->> 15808.589990135719
+[SW1]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_150r created and initiented !!! [Ag_Line.SW1]... 
+[SW1] sensoring coordenation timing for the agnt  ------->> 3440.7345437443223
+[Ag_149]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_149 created and initiented !!! [Ag_149]... 
+[Ag_149] sensoring coordenation timing for the agnt  ------->> 14520.1057285936
+[Ag_1]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_1 created and initiented !!! [Ag_1]... 
+[Ag_1] sensoring coordenation timing for the agnt  ------->> 8931.421392198843
+[Ag_2]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_2 created and initiented !!! [Ag_2]... 
+[Ag_2] sensoring coordenation timing for the agnt  ------->> 8285.11667388463
+[Ag_3]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_3 created and initiented !!! [Ag_3]... 
+[Ag_3] sensoring coordenation timing for the agnt  ------->> 15028.283372144462
+[Ag_7]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_7 created and initiented !!! [Ag_7]... 
+[Ag_7] sensoring coordenation timing for the agnt  ------->> 13587.674887498644
+[Ag_4]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_4 created and initiented !!! [Ag_4]... 
+[Ag_4] sensoring coordenation timing for the agnt  ------->> 17844.95594305483
+[Ag_5]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_5 created and initiented !!! [Ag_5]... 
+[Ag_5] sensoring coordenation timing for the agnt  ------->> 23582.71053068539
+[Ag_6]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_6 created and initiented !!! [Ag_6]... 
+[Ag_6] sensoring coordenation timing for the agnt  ------->> 18706.119158256788
+[Ag_8]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_8 created and initiented !!! [Ag_8]... 
+[Ag_8] sensoring coordenation timing for the agnt  ------->> 17513.02381232249
+[Ag_12]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_12 created and initiented !!! [Ag_12]... 
+[Ag_12] sensoring coordenation timing for the agnt  ------->> 11956.297815356453
+[Ag_9]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_9 created and initiented !!! [Ag_9]... 
+[Ag_9] sensoring coordenation timing for the agnt  ------->> 13898.836429624553
+[SW2]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_13 created and initiented !!! [Ag_Line.SW2]... 
+[SW2] sensoring coordenation timing for the agnt  ------->> 20057.93714622246
+[Ag_9r]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_9r created and initiented !!! [Ag_9r]... 
+[Ag_9r] sensoring coordenation timing for the agnt  ------->> 16196.931752978158
+[Ag_14]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_14 created and initiented !!! [Ag_14]... 
+[SW1] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_14] sensoring coordenation timing for the agnt  ------->> 11315.406480770303
+[Ag_34]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_34 created and initiented !!! [Ag_34]... 
+[Ag_34] sensoring coordenation timing for the agnt  ------->> 10062.155363947903
+[SW3]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_18 created and initiented !!! [Ag_Line.SW3]... 
+[SW3] sensoring coordenation timing for the agnt  ------->> 20870.66869967522
+[SW1] >>Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   1
+[SW1] >>Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   2
+[SW1] >>Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   3
+[Ag_11]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_11 created and initiented !!! [Ag_11]... 
+[Ag_11] sensoring coordenation timing for the agnt  ------->> 15664.704812730834
+[Ag_10]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_10 created and initiented !!! [Ag_10]... 
+[SW1]   FALT ALERT***!!!
+
+[SW1] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Line.SW1   PHASE:   Phase 1  Value::567.339
+[Ag_10] sensoring coordenation timing for the agnt  ------->> 14981.253813943416
+[Ag_15]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_15 created and initiented !!! [Ag_15]... 
+[SW1]   FALT ALERT***!!!
+
+[SW1] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Line.SW1   PHASE:   Phase 2  Value::408.416
+[Ag_16]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_16 created and initiented !!! [Ag_16]... 
+[Ag_15] sensoring coordenation timing for the agnt  ------->> 5696.7540721457335
+[Ag_16] sensoring coordenation timing for the agnt  ------->> 19189.583733631993
+[SW1]   FALT ALERT***!!!
+
+[SW1] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Line.SW1   PHASE:   Phase 3  Value::501.222
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_Line.SW1}  status Checked.. everything is fine
+[Ag_17]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_17 created and initiented !!! [Ag_17]... 
+[Ag_17] sensoring coordenation timing for the agnt  ------->> 9497.475884039333
+[Ag_19]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_19 created and initiented !!! [Ag_19]... 
+[Ag_19] sensoring coordenation timing for the agnt  ------->> 14533.610764092236
+[Ag_21]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_21 created and initiented !!! [Ag_21]... 
+[Ag_21] sensoring coordenation timing for the agnt  ------->> 14173.460130076008
+[Ag_20]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_20 created and initiented !!! [Ag_20]... 
+[Ag_20] sensoring coordenation timing for the agnt  ------->> 6172.393332274181
+[Ag_22]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_22 created and initiented !!! [Ag_22]... 
+[Ag_22] sensoring coordenation timing for the agnt  ------->> 18510.33640182474
+[Ag_23]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_23 created and initiented !!! [Ag_23]... 
+[Ag_23] sensoring coordenation timing for the agnt  ------->> 8978.102136942583
+[Ag_24]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_24 created and initiented !!! [Ag_24]... 
+[Ag_24] sensoring coordenation timing for the agnt  ------->> 11960.606446282205
+[Ag_25]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_25 created and initiented !!! [Ag_25]... 
+[Ag_25] sensoring coordenation timing for the agnt  ------->> 15080.79725097871
+[Ag_25r]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_25r created and initiented !!! [Ag_25r]... 
+[Ag_25r] sensoring coordenation timing for the agnt  ------->> 16933.220897854266
+[Ag_26]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_26 created and initiented !!! [Ag_26]... 
+[Ag_28]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_28 created and initiented !!! [Ag_28]... 
+[Ag_26] sensoring coordenation timing for the agnt  ------->> 13878.091364949058
+[Ag_28] sensoring coordenation timing for the agnt  ------->> 14164.346632267598
+[Ag_27]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_27 created and initiented !!! [Ag_27]... 
+[Ag_27] sensoring coordenation timing for the agnt  ------->> 2503.7695486054977
+[Ag_31]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_31 created and initiented !!! [Ag_31]... 
+[Ag_31] sensoring coordenation timing for the agnt  ------->> 10059.446828265201
+[Ag_33]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_33 created and initiented !!! [Ag_33]... 
+[Ag_33] sensoring coordenation timing for the agnt  ------->> 10584.057966124949
+[Ag_29]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_29 created and initiented !!! [Ag_29]... 
+[Ag_29] sensoring coordenation timing for the agnt  ------->> 16788.85497383712
+[Ag_2] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_1] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_27] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_15] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_20] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_34] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_17] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_12] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_14] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_149] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_23] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_7] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_150] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_3] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_9] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_31] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_24] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_33] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_10] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_21] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_9r] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_4] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_19] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_11] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_8] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_26] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_6] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_28] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_25] 
+
+ checking Voltages & currentes... Cycle::1
+[SW2] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_25r] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_16] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_22] 
+
+ checking Voltages & currentes... Cycle::1
+[SW3] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_5] 
+
+ checking Voltages & currentes... Cycle::1

@@ -1,0 +1,54 @@
+! =================================================================
+! 2nd Script
+! =================================================================
+
+! This script give results closer to the posted results by forcing 
+! the regulators to the same tap as the solution posted
+
+Compile (IEEE123Master.dss)
+
+! set regulators on same tap as Kersting computes
+! (uses RPN inline math feature of OpenDSS)
+! Transformer taps are expressed in per unit
+
+Transformer.reg1a.wdg=2 Tap=(0.00625  7  * 1 +)   ! Tap 7
+Transformer.reg2a.wdg=2 Tap=(0.00625 -1 * 1 +)    ! Tap -1
+Transformer.reg3a.wdg=2 Tap=(0.00625  0  * 1 +)   ! Tap 0
+Transformer.reg3c.wdg=2 Tap=(0.00625 -1 * 1 +)    ! Tap -1
+Transformer.reg4a.wdg=2 Tap=(0.00625  8 * 1 +)    ! Tap 8
+Transformer.reg4b.wdg=2 Tap=(0.00625  1 * 1 +)    ! Tap 1
+Transformer.reg4c.wdg=2 Tap=(0.00625  5 * 1 +)    ! Tap 5
+
+! Lock the regulators so they don't move
+! Another way of doing this is to
+ Set ControlMode=OFF
+
+! No need to revise the MaxControlIter option in this case;
+! there will be only one control iteration
+
+
+New EnergyMeter.Feeder Line.L115 1
+!New EnergyMeter.SW1 Line.Sw1 1
+!New EnergyMeter.SW2 Line.Sw2 1
+!New EnergyMeter.SW3 Line.Sw3 1
+!New EnergyMeter.SW4 Line.Sw4 1
+!New EnergyMeter.SW5 Line.Sw5 1
+!New EnergyMeter.SW6 Line.Sw6 1
+!New EnergyMeter.SW7 Line.Sw7 1
+!New EnergyMeter.SW8 Line.Sw8 1
+
+solve
+Buscoords Buscoords.dat   ! load in bus coordinates
+
+! Show some selected results
+
+
+Plot Profile
+Set normvminpu=1.02
+Set emergvminpu=0.95
+
+!plot circuit voltage dots=y labels=n  
+plot circuit currents max=1000 dots=y labels=n C1=$00FF0000  1ph=1
+!plot circuit power dots=y labels=n  
+
+Redirect CircuitPlottingScripts.DSS

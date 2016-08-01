@@ -1,0 +1,8 @@
+New "Line.SW1" Bus1="150r.1.2.3" Bus2="149.1.2.3" phases=3 Switch=True
+New "Line.SW2" Bus1="13.1.2.3" Bus2="152.1.2.3" phases=3 Switch=False
+New "Line.SW3" Bus1="18.1.2.3" Bus2="135.1.2.3" phases=3 Switch=True
+New "Line.SW4" Bus1="60.1.2.3" Bus2="160.1.2.3" phases=3 Switch=False
+New "Line.SW5" Bus1="97.1.2.3" Bus2="197.1.2.3" phases=3 Switch=True
+New "Line.SW6" Bus1="61.1.2.3" Bus2="61s.1.2.3" phases=3 Switch=True
+New "Line.SW7" Bus1="151" Bus2="300_OPEN" phases=3 Switch=False
+New "Line.SW8" Bus1="54.1" Bus2="94_OPEN.1" phases=1 Switch=False

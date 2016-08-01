@@ -1,0 +1,324 @@
+[JaCaMoLauncher] Workspace grid_environment created.
+[dMS]  DMS Agent Initieted --->>[dMS]... 
+[simulationCall] 
+
+
+Workspace Dimenssion Created and Named: grid_environment
+[dMS] dMS FOUND and focusing on---> cobj_2 Or -- >initSim
+[dMS] dMS Just got in the Dimension:: grid_environment
+[simulationCall] Exogenous Environment Artifact Created & set for the Power Distribution Study System.....
+
+
+[Ag_150] >>Agent & sensorr Artifact Created ...[Art_150].
+[Ag_SW1] >>Agent & sensorr Artifact Created ...[Art_150r].
+[Ag_150] cobj_3
+[Ag_150] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 3002.315175204259
+[Ag_SW1] cobj_3
+[Ag_SW1] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2179.3170501292716
+[Ag_149] >>Agent & sensorr Artifact Created ...[Art_149].
+[Ag_1] >>Agent & sensorr Artifact Created ...[Art_1].
+[Ag_149] cobj_3
+[Ag_149] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2259.3216008241548
+[Ag_1] cobj_3
+[Ag_1] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2585.9912263220426
+[Ag_2] >>Agent & sensorr Artifact Created ...[Art_2].
+[Ag_3] >>Agent & sensorr Artifact Created ...[Art_3].
+[Ag_2] cobj_3
+[Ag_2] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2646.2553858642586
+[Ag_3] cobj_3
+[Ag_3] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2795.236161337645
+[Ag_7] >>Agent & sensorr Artifact Created ...[Art_7].
+[Ag_4] >>Agent & sensorr Artifact Created ...[Art_4].
+[Ag_5] >>Agent & sensorr Artifact Created ...[Art_5].
+[Ag_6] >>Agent & sensorr Artifact Created ...[Art_6].
+[Ag_SW1] >> Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   1
+[Ag_8] >>Agent & sensorr Artifact Created ...[Art_8].
+[Ag_12] >>Agent & sensorr Artifact Created ...[Art_12].
+[Ag_9] >>Agent & sensorr Artifact Created ...[Art_9].
+[Ag_150] >> Voltage Levels in Regulatory Standard Range ---->0.99999   PHASE:   1
+[Ag_149] >> Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   1
+[Ag_SW2] >>Agent & sensorr Artifact Created ...[Art_13].
+[Ag_9r] >>Agent & sensorr Artifact Created ...[Art_9r].
+[Ag_14] >>Agent & sensorr Artifact Created ...[Art_14].
+[Ag_1] >> Voltage Levels in Regulatory Standard Range ---->1.0341   PHASE:   1
+[Ag_34] >>Agent & sensorr Artifact Created ...[Art_34].
+[Ag_2] >> Voltage Levels in Regulatory Standard Range ---->1.0401   PHASE:   1
+[Ag_SW3] >>Agent & sensorr Artifact Created ...[Art_18].
+[Ag_11] >>Agent & sensorr Artifact Created ...[Art_11].
+[Ag_3] >> Voltage Levels in Regulatory Standard Range ---->1.0341   PHASE:   1
+[Ag_10] >>Agent & sensorr Artifact Created ...[Art_10].
+[Ag_15] >>Agent & sensorr Artifact Created ...[Art_15].
+[Ag_16] >>Agent & sensorr Artifact Created ...[Art_16].
+[Ag_17] >>Agent & sensorr Artifact Created ...[Art_17].
+[Ag_19] >>Agent & sensorr Artifact Created ...[Art_19].
+[Ag_21] >>Agent & sensorr Artifact Created ...[Art_21].
+[Ag_20] >>Agent & sensorr Artifact Created ...[Art_20].
+[Ag_22] >>Agent & sensorr Artifact Created ...[Art_22].
+[Ag_23] >>Agent & sensorr Artifact Created ...[Art_23].
+[Ag_24] >>Agent & sensorr Artifact Created ...[Art_24].
+[Ag_25] >>Agent & sensorr Artifact Created ...[Art_25].
+[Ag_25r] >>Agent & sensorr Artifact Created ...[Art_25r].
+[Ag_26] >>Agent & sensorr Artifact Created ...[Art_26].
+[Ag_28] >>Agent & sensorr Artifact Created ...[Art_28].
+[Ag_27] >>Agent & sensorr Artifact Created ...[Art_27].
+[Ag_31] >>Agent & sensorr Artifact Created ...[Art_31].
+[Ag_33] >>Agent & sensorr Artifact Created ...[Art_33].
+[Ag_29] >>Agent & sensorr Artifact Created ...[Art_29].
+[Ag_30] >>Agent & sensorr Artifact Created ...[Art_30].
+[Ag_250] >>Agent & sensorr Artifact Created ...[Art_250].
+[Ag_32] >>Agent & sensorr Artifact Created ...[Art_32].
+[Ag_35] >>Agent & sensorr Artifact Created ...[Art_35].
+[Ag_36] >>Agent & sensorr Artifact Created ...[Art_36].
+[Ag_40] >>Agent & sensorr Artifact Created ...[Art_40].
+[Ag_37] >>Agent & sensorr Artifact Created ...[Art_37].
+[Ag_38] >>Agent & sensorr Artifact Created ...[Art_38].
+[Ag_39] >>Agent & sensorr Artifact Created ...[Art_39].
+[Ag_41] >>Agent & sensorr Artifact Created ...[Art_41].
+[Ag_42] >>Agent & sensorr Artifact Created ...[Art_42].
+[Ag_43] >>Agent & sensorr Artifact Created ...[Art_43].
+[Ag_44] >>Agent & sensorr Artifact Created ...[Art_44].
+[Ag_45] >>Agent & sensorr Artifact Created ...[Art_45].
+[Ag_47] >>Agent & sensorr Artifact Created ...[Art_47].
+[Ag_46] >>Agent & sensorr Artifact Created ...[Art_46].
+[Ag_48] >>Agent & sensorr Artifact Created ...[Art_48].
+[Ag_49] >>Agent & sensorr Artifact Created ...[Art_49].
+[Ag_50] >>Agent & sensorr Artifact Created ...[Art_50].
+[Ag_51] >>Agent & sensorr Artifact Created ...[Art_51].
+[Ag_SW7] >>Agent & sensorr Artifact Created ...[Art_151].
+[Ag_52] >>Agent & sensorr Artifact Created ...[Art_52].
+[Ag_53] >>Agent & sensorr Artifact Created ...[Art_53].
+[Ag_SW8] >>Agent & sensorr Artifact Created ...[Art_54].
+[Ag_55] >>Agent & sensorr Artifact Created ...[Art_55].
+[Ag_57] >>Agent & sensorr Artifact Created ...[Art_57].
+[Ag_56] >>Agent & sensorr Artifact Created ...[Art_56].
+[Ag_58] >>Agent & sensorr Artifact Created ...[Art_58].
+[Ag_SW4] >>Agent & sensorr Artifact Created ...[Art_60].
+[Ag_59] >>Agent & sensorr Artifact Created ...[Art_59].
+[Ag_SW6] >>Agent & sensorr Artifact Created ...[Art_61].
+[Ag_62] >>Agent & sensorr Artifact Created ...[Art_62].
+[Ag_63] >>Agent & sensorr Artifact Created ...[Art_63].
+[Ag_64] >>Agent & sensorr Artifact Created ...[Art_64].
+[Ag_65] >>Agent & sensorr Artifact Created ...[Art_65].
+[Ag_66] >>Agent & sensorr Artifact Created ...[Art_66].
+[Ag_67] >>Agent & sensorr Artifact Created ...[Art_67].
+[Ag_68] >>Agent & sensorr Artifact Created ...[Art_68].
+[Ag_72] >>Agent & sensorr Artifact Created ...[Art_72].
+[Ag_SW5] >>Agent & sensorr Artifact Created ...[Art_97].
+[Ag_69] >>Agent & sensorr Artifact Created ...[Art_69].
+[Ag_70] >>Agent & sensorr Artifact Created ...[Art_70].
+[Ag_71] >>Agent & sensorr Artifact Created ...[Art_71].
+[Ag_73] >>Agent & sensorr Artifact Created ...[Art_73].
+[Ag_76] >>Agent & sensorr Artifact Created ...[Art_76].
+[Ag_74] >>Agent & sensorr Artifact Created ...[Art_74].
+[Ag_75] >>Agent & sensorr Artifact Created ...[Art_75].
+[Ag_77] >>Agent & sensorr Artifact Created ...[Art_77].
+[Ag_86] >>Agent & sensorr Artifact Created ...[Art_86].
+[Ag_78] >>Agent & sensorr Artifact Created ...[Art_78].
+[Ag_79] >>Agent & sensorr Artifact Created ...[Art_79].
+[Ag_80] >>Agent & sensorr Artifact Created ...[Art_80].
+[Ag_81] >>Agent & sensorr Artifact Created ...[Art_81].
+[Ag_82] >>Agent & sensorr Artifact Created ...[Art_82].
+[Ag_84] >>Agent & sensorr Artifact Created ...[Art_84].
+[Ag_83] >>Agent & sensorr Artifact Created ...[Art_83].
+[Ag_85] >>Agent & sensorr Artifact Created ...[Art_85].
+[Ag_87] >>Agent & sensorr Artifact Created ...[Art_87].
+[Ag_88] >>Agent & sensorr Artifact Created ...[Art_88].
+[Ag_89] >>Agent & sensorr Artifact Created ...[Art_89].
+[Ag_90] >>Agent & sensorr Artifact Created ...[Art_90].
+[Ag_91] >>Agent & sensorr Artifact Created ...[Art_91].
+[Ag_92] >>Agent & sensorr Artifact Created ...[Art_92].
+[Ag_93] >>Agent & sensorr Artifact Created ...[Art_93].
+[Ag_94] >>Agent & sensorr Artifact Created ...[Art_94].
+[Ag_95] >>Agent & sensorr Artifact Created ...[Art_95].
+[Ag_96] >>Agent & sensorr Artifact Created ...[Art_96].
+[Ag_98] >>Agent & sensorr Artifact Created ...[Art_98].
+[Ag_99] >>Agent & sensorr Artifact Created ...[Art_99].
+[Ag_100] >>Agent & sensorr Artifact Created ...[Art_100].
+[Ag_450] >>Agent & sensorr Artifact Created ...[Art_450].
+[Ag_197] >>Agent & sensorr Artifact Created ...[Art_197].
+[Ag_101] >>Agent & sensorr Artifact Created ...[Art_101].
+[Ag_102] >>Agent & sensorr Artifact Created ...[Art_102].
+[Ag_105] >>Agent & sensorr Artifact Created ...[Art_105].
+[Ag_103] >>Agent & sensorr Artifact Created ...[Art_103].
+[Ag_104] >>Agent & sensorr Artifact Created ...[Art_104].
+[Ag_106] >>Agent & sensorr Artifact Created ...[Art_106].
+[Ag_108] >>Agent & sensorr Artifact Created ...[Art_108].
+[Ag_107] >>Agent & sensorr Artifact Created ...[Art_107].
+[Ag_109] >>Agent & sensorr Artifact Created ...[Art_109].
+[Ag_300] >>Agent & sensorr Artifact Created ...[Art_300].
+[Ag_110] >>Agent & sensorr Artifact Created ...[Art_110].
+[Ag_111] >>Agent & sensorr Artifact Created ...[Art_111].
+[Ag_112] >>Agent & sensorr Artifact Created ...[Art_112].
+[Ag_113] >>Agent & sensorr Artifact Created ...[Art_113].
+[Ag_114] >>Agent & sensorr Artifact Created ...[Art_114].
+[Ag_135] >>Agent & sensorr Artifact Created ...[Art_135].
+[Ag_152] >>Agent & sensorr Artifact Created ...[Art_152].
+[Ag_160r] >>Agent & sensorr Artifact Created ...[Art_160r].
+[Ag_160] >>Agent & sensorr Artifact Created ...[Art_160].
+[Ag_61s] >>Agent & sensorr Artifact Created ...[Art_61s].
+[Ag_300_open] >>Agent & sensorr Artifact Created ...[Art_300_open].
+[Ag_94_open] >>Agent & sensorr Artifact Created ...[Art_94_open].
+[simulationCall] 
+
+ _____________. Endogenous Environment ALL set...
+ _____________. MAS System Ready for Working towards the Power Grid Reconfiguration Approach ...
+
+ 
+[Ag_610] >>Agent & sensorr Artifact Created ...[Art_610].
+[Ag_SW1] >> Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   2
+[Ag_149] >> Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   2
+[Ag_3] >> Current: Normal Range [ 0 - 400Amp]  <<>>  Line1--->Line.L4   Ph:   Phase 1  Value::18.0136
+[Ag_149] >> Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   3
+[Ag_7] cobj_3
+[Ag_7] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2249.4488910177593
+[Ag_150] >> Voltage Levels in Regulatory Standard Range ---->0.99999   PHASE:   2
+[Ag_1] >> Voltage Levels in Regulatory Standard Range ---->1.0403   PHASE:   2
+[Ag_2] Error in internal action '.send("dMS",achieve,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:133): Receiver 'dMS' does not exists! Could not send <mid266,Ag_2,achieve,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid266,Ag_2,achieve,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_3] >> Current: Normal Range [ 0 - 400Amp]  <<>>  Line2--->Line.L5   Ph:   Phase 1  Value::28.566
+[Ag_2] Error in internal action '.send("dMS",achieve,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:133): Receiver 'dMS' does not exists! Could not send <mid267,Ag_2,achieve,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid267,Ag_2,achieve,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_150] >> Voltage Levels in Regulatory Standard Range ---->0.99999   PHASE:   3
+[Ag_150] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line1--->Transformer.REG1A   PHASE:   Phase 1  Value::592.16
+[Ag_150] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line1--->Transformer.REG1A   PHASE:   Phase 2  Value::426.285
+[Ag_150] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line1--->Transformer.REG1A   PHASE:   Phase 3  Value::523.15
+[Ag_150] Error in internal action '.send("dMS",achieve,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:133): Receiver 'dMS' does not exists! Could not send <mid268,Ag_150,achieve,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid268,Ag_150,achieve,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_150] Error in internal action '.send("dMS",achieve,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:133): Receiver 'dMS' does not exists! Could not send <mid269,Ag_150,achieve,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid269,Ag_150,achieve,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_150] Error in internal action '.send("dMS",achieve,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:133): Receiver 'dMS' does not exists! Could not send <mid270,Ag_150,achieve,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid270,Ag_150,achieve,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_150] Error in internal action '.send("dMS",achieve,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:133): Receiver 'dMS' does not exists! Could not send <mid271,Ag_150,achieve,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid271,Ag_150,achieve,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_150] Error in internal action '.send("dMS",achieve,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:133): Receiver 'dMS' does not exists! Could not send <mid272,Ag_150,achieve,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid272,Ag_150,achieve,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_150] Error in internal action '.send("dMS",achieve,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:133): Receiver 'dMS' does not exists! Could not send <mid273,Ag_150,achieve,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid273,Ag_150,achieve,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_150] Error in internal action '.send("dMS",achieve,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:133): Receiver 'dMS' does not exists! Could not send <mid274,Ag_150,achieve,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid274,Ag_150,achieve,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_150] Error in internal action '.send("dMS",achieve,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:133): Receiver 'dMS' does not exists! Could not send <mid275,Ag_150,achieve,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid275,Ag_150,achieve,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_150] Error in internal action '.send("dMS",achieve,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:133): Receiver 'dMS' does not exists! Could not send <mid276,Ag_150,achieve,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid276,Ag_150,achieve,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_150] Error in internal action '.send("dMS",achieve,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:133): Receiver 'dMS' does not exists! Could not send <mid277,Ag_150,achieve,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid277,Ag_150,achieve,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+

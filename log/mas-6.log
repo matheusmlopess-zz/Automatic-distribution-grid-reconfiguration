@@ -1,0 +1,139 @@
+[JaCaMoLauncher] Workspace grid_environment created.
+[dMS]  DMS Agent Initieted --->>[dMS]... 
+[simulationCall] 
+
+
+Workspace Dimenssion Created and Named: grid_environment
+[dMS] dMS FOUND and focusing on---> cobj_2 Or -- >initSim
+[dMS] dMS Just got in the Dimension:: grid_environment
+[simulationCall] Exogenous Environment Artifact Created & set for the Power Distribution Study System.....
+
+
+[Ag_150]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_150 created and initiented !!! [Ag_150]... 
+[Ag_150] sensoring coordenation timing for the agnt  ------->> 7831.4327002817945
+[Ag_SW1]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_150r created and initiented !!! [Ag_SW1]... 
+[Ag_SW1] sensoring coordenation timing for the agnt  ------->> 5090.1420979601535
+[Ag_149]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_149 created and initiented !!! [Ag_149]... 
+[Ag_149] sensoring coordenation timing for the agnt  ------->> 11730.235340221567
+[Ag_1]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_1 created and initiented !!! [Ag_1]... 
+[Ag_1] sensoring coordenation timing for the agnt  ------->> 9967.939274909872
+[Ag_2]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_2 created and initiented !!! [Ag_2]... 
+[Ag_2] sensoring coordenation timing for the agnt  ------->> 2457.6777810135077
+[Ag_3]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_3 created and initiented !!! [Ag_3]... 
+[Ag_3] sensoring coordenation timing for the agnt  ------->> 3115.7915668111855
+[Ag_7]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_7 created and initiented !!! [Ag_7]... 
+[Ag_7] sensoring coordenation timing for the agnt  ------->> 3336.880374415459
+[Ag_4]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_4 created and initiented !!! [Ag_4]... 
+[Ag_4] sensoring coordenation timing for the agnt  ------->> 9637.532377334865
+[Ag_5]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_5 created and initiented !!! [Ag_5]... 
+[Ag_5] sensoring coordenation timing for the agnt  ------->> 3049.802630696375
+[Ag_6]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_6 created and initiented !!! [Ag_6]... 
+[Ag_6] sensoring coordenation timing for the agnt  ------->> 7274.501426926805
+[Ag_8]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_8 created and initiented !!! [Ag_8]... 
+[Ag_8] sensoring coordenation timing for the agnt  ------->> 6071.707639129375
+[Ag_12]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_12 created and initiented !!! [Ag_12]... 
+[Ag_12] sensoring coordenation timing for the agnt  ------->> 8813.36873374226
+[Ag_9]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_9 created and initiented !!! [Ag_9]... 
+[Ag_2] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_9] sensoring coordenation timing for the agnt  ------->> 7145.52303806513
+[Ag_SW2]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_13 created and initiented !!! [Ag_SW2]... 
+[Ag_SW2] sensoring coordenation timing for the agnt  ------->> 10153.132219613322
+[Ag_2] >>Voltage Levels in Regulatory Standard Range ---->1.0401   PHASE:   1
+[Ag_9r]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_9r created and initiented !!! [Ag_9r]... 
+[Ag_9r] sensoring coordenation timing for the agnt  ------->> 8260.363341366106
+[Ag_2] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S2B   Ph:   Phase 1  Value::8.95093
+[Ag_14]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_14 created and initiented !!! [Ag_14]... 
+[Ag_3] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_14] sensoring coordenation timing for the agnt  ------->> 13201.83556402901
+[Ag_34]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_34 created and initiented !!! [Ag_34]... 
+[Ag_2] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S2B   Ph:   Phase 2  Value::8.95093
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_2}  status Checked.. everything is fine
+[Ag_3] >>Voltage Levels in Regulatory Standard Range ---->1.0341   PHASE:   1
+[Ag_SW1] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_3] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L4   Ph:   Phase 1  Value::18.0136
+[Ag_34] sensoring coordenation timing for the agnt  ------->> 9997.510041877296
+[Ag_SW3]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_18 created and initiented !!! [Ag_SW3]... 
+[Ag_7] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_SW3] sensoring coordenation timing for the agnt  ------->> 8160.042907924465
+[Ag_3] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L5   Ph:   Phase 1  Value::28.566
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_3}  status Checked.. everything is fine
+[Ag_5] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_SW1] >>Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   1
+[Ag_11]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_11 created and initiented !!! [Ag_11]... 
+[Ag_11] sensoring coordenation timing for the agnt  ------->> 12143.928161192238
+[Ag_10]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_10 created and initiented !!! [Ag_10]... 
+[Ag_SW1] >>Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   2
+[Ag_7] >>Voltage Levels in Regulatory Standard Range ---->1.0266   PHASE:   1
+[Ag_5] >>Voltage Levels in Regulatory Standard Range ---->1.0329   PHASE:   1
+[Ag_10] sensoring coordenation timing for the agnt  ------->> 8295.292970776227
+[Ag_SW1] >>Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   3
+[Ag_15]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_15 created and initiented !!! [Ag_15]... 
+[Ag_15] sensoring coordenation timing for the agnt  ------->> 5010.245298027988
+[Ag_7] >>Voltage Levels in Regulatory Standard Range ---->1.038   PHASE:   2
+[Ag_5] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L6   Ph:   Phase 1  Value::19.2493
+[Ag_SW1]   FALT ALERT***!!!
+
+[Ag_16]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_16 created and initiented !!! [Ag_16]... 
+[Ag_SW1] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Line.SW1   PHASE:   Phase 1  Value::567.339
+[Ag_16] sensoring coordenation timing for the agnt  ------->> 9983.523507449563
+[Ag_7] >>Voltage Levels in Regulatory Standard Range ---->1.0305   PHASE:   3
+[Ag_5] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S5C   Ph:   Phase 1  Value::9.31695
+[Ag_17]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_17 created and initiented !!! [Ag_17]... 
+[Ag_17] sensoring coordenation timing for the agnt  ------->> 7179.958468251428
+[Ag_SW1]   FALT ALERT***!!!
+
+[Ag_SW1] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Line.SW1   PHASE:   Phase 2  Value::408.416
+[Ag_150] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_7]   FALT ALERT***!!!
+
+[Ag_7] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Line.L7   PHASE:   Phase 1  Value::558.372
+[Ag_19]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_19 created and initiented !!! [Ag_19]... 
+[Ag_5] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S5C   Ph:   Phase 2  Value::9.31695
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_5}  status Checked.. everything is fine
+[Ag_19] sensoring coordenation timing for the agnt  ------->> 6819.285864309317
+[Ag_SW1]   FALT ALERT***!!!
+
+[Ag_SW1] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Line.SW1   PHASE:   Phase 3  Value::501.222
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_SW1}  status Checked.. everything is fine
+[Ag_150] >>Voltage Levels in Regulatory Standard Range ---->0.99999   PHASE:   1
+[Ag_7] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L7   Ph:   Phase 2  Value::399.545
+[Ag_21]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_21 created and initiented !!! [Ag_21]... 
+[Ag_150] >>Voltage Levels in Regulatory Standard Range ---->0.99999   PHASE:   2
+[Ag_21] sensoring coordenation timing for the agnt  ------->> 5853.010687012454
+[Ag_7]   FALT ALERT***!!!
+
+[Ag_7] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Line.L7   PHASE:   Phase 3  Value::455.247
+[Ag_20]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_20 created and initiented !!! [Ag_20]... 
+[Ag_150] >>Voltage Levels in Regulatory Standard Range ---->0.99999   PHASE:   3
+[Ag_7] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S7A   Ph:   Phase 1  Value::4.5344
+[Ag_22]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_22 created and initiented !!! [Ag_22]... 
+[Ag_150]   FALT ALERT***!!!
+
+[Ag_150] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Transformer.REG1A   PHASE:   Phase 1  Value::592.16
+[Ag_7] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S7A   Ph:   Phase 2  Value::4.5344
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_7}  status Checked.. everything is fine
+[Ag_20] sensoring coordenation timing for the agnt  ------->> 10221.578912968627
+[Ag_22] sensoring coordenation timing for the agnt  ------->> 3813.9915193666657
+[Ag_23]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_23 created and initiented !!! [Ag_23]... 
+[Ag_150]   FALT ALERT***!!!
+
+[Ag_150] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Transformer.REG1A   PHASE:   Phase 2  Value::426.285
+[Ag_150]   FALT ALERT***!!!
+
+[Ag_150] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Transformer.REG1A   PHASE:   Phase 3  Value::523.15
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_150}  status Checked.. everything is fine
+[Ag_8] 
+
+ checking Voltages & currentes... Cycle::1

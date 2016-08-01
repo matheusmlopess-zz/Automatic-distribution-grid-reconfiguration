@@ -1,0 +1,162 @@
+[JaCaMoLauncher] Workspace grid_environment created.
+[dMS]  DMS Agent Initieted --->>[dMS]... 
+[simulationCall] 
+
+
+Workspace Dimenssion Created and Named: grid_environment
+[dMS] dMS FOUND and focusing on---> cobj_2 Or -- >initSim
+[dMS] dMS Just got in the Dimension:: grid_environment
+[simulationCall] Exogenous Environment Artifact Created & set for the Power Distribution Study System.....
+
+
+[Ag_150] >>Agent & sensorr Artifact Created ...[Art_150].
+[Ag_150] cobj_3
+[Ag_150] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2184.1784284081014
+[Ag_SW1] >>Agent & sensorr Artifact Created ...[Art_150r].
+[Ag_149] >>Agent & sensorr Artifact Created ...[Art_149].
+[Ag_SW1] cobj_3
+[Ag_SW1] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2663.230726109577
+[Ag_149] cobj_3
+[Ag_149] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2506.68608440941
+[Ag_1] >>Agent & sensorr Artifact Created ...[Art_1].
+[Ag_1] cobj_3
+[Ag_1] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2394.3577076044226
+[Ag_2] >>Agent & sensorr Artifact Created ...[Art_2].
+[Ag_2] cobj_3
+[Ag_2] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 3141.11415882928
+[Ag_3] >>Agent & sensorr Artifact Created ...[Art_3].
+[Ag_7] >>Agent & sensorr Artifact Created ...[Art_7].
+[Ag_3] cobj_3
+[Ag_3] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 1956.1716400665873
+[Ag_4] >>Agent & sensorr Artifact Created ...[Art_4].
+[Ag_7] cobj_3
+[Ag_7] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2691.403985389345
+[Ag_5] >>Agent & sensorr Artifact Created ...[Art_5].
+[Ag_150] >> Voltage Levels in Regulatory Standard Range ---->0.99999   PHASE:   1
+[Ag_150] >> Voltage Levels in Regulatory Standard Range ---->0.99999   PHASE:   2
+[Ag_4] cobj_3
+[Ag_150] >> Voltage Levels in Regulatory Standard Range ---->0.99999   PHASE:   3
+[Ag_4] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2753.550772154095
+[Ag_6] >>Agent & sensorr Artifact Created ...[Art_6].
+[Ag_5] cobj_3
+[Ag_5] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2759.007044894885
+[Ag_150] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line1--->Transformer.REG1A   PHASE:   Phase 1  Value::592.16
+[Ag_150] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line1--->Transformer.REG1A   PHASE:   Phase 2  Value::426.285
+[Ag_8] >>Agent & sensorr Artifact Created ...[Art_8].
+[Ag_6] cobj_3
+[Ag_6] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 3768.3054700582784
+[Ag_12] >>Agent & sensorr Artifact Created ...[Art_12].
+[Ag_150] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line1--->Transformer.REG1A   PHASE:   Phase 3  Value::523.15
+[Ag_8] cobj_3
+[Ag_8] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 3470.5471206814505
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_150}  status Checked.. everything is fine
+[Ag_9] >>Agent & sensorr Artifact Created ...[Art_9].
+[Ag_SW1] >> Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   1
+[Ag_12] cobj_3
+[Ag_12] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2498.5877908186458
+[Ag_149] >> Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   1
+[Ag_149] >> Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   2
+[Ag_149] >> Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   3
+[Ag_149] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line1--->Line.L115   PHASE:   Phase 1  Value::567.339
+[Ag_149] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line1--->Line.L115   PHASE:   Phase 2  Value::408.416
+[Ag_SW2] >>Agent & sensorr Artifact Created ...[Art_13].
+[Ag_SW1] >> Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   2
+[Ag_9] cobj_3
+[Ag_9] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2521.431867272315
+[Ag_1] >> Voltage Levels in Regulatory Standard Range ---->1.0341   PHASE:   1
+[Ag_1] >> Voltage Levels in Regulatory Standard Range ---->1.0403   PHASE:   2
+[Ag_1] >> Voltage Levels in Regulatory Standard Range ---->1.0357   PHASE:   3
+[Ag_1] >> Current: Normal Range [ 0 - 400Amp]  <<>>  Line2--->Line.L2   Ph:   Phase 1  Value::46.5794
+[Ag_1] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line3--->Line.L3   PHASE:   Phase 1  Value::562.87
+[Ag_1] >> Current: Normal Range [ 0 - 400Amp]  <<>>  Line3--->Line.L3   Ph:   Phase 2  Value::399.544
+[Ag_1] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line3--->Line.L3   PHASE:   Phase 3  Value::455.247
+[Ag_SW2] cobj_3
+[Ag_SW2] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2961.7932321944572
+[Ag_SW1] >> Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   3
+[Ag_SW1] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line1--->Line.SW1   PHASE:   Phase 1  Value::567.339
+[Ag_149] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line1--->Line.L115   PHASE:   Phase 3  Value::501.222
+[Ag_SW1] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line1--->Line.SW1   PHASE:   Phase 2  Value::408.416
+[Ag_SW1] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line1--->Line.SW1   PHASE:   Phase 3  Value::501.222
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_1}  status Checked.. everything is fine
+[Ag_3] >> Voltage Levels in Regulatory Standard Range ---->1.0341   PHASE:   1
+[Ag_3] >> Current: Normal Range [ 0 - 400Amp]  <<>>  Line1--->Line.L4   Ph:   Phase 1  Value::18.0136
+[Ag_3] >> Current: Normal Range [ 0 - 400Amp]  <<>>  Line2--->Line.L5   Ph:   Phase 1  Value::28.566
+[Ag_9r] >>Agent & sensorr Artifact Created ...[Art_9r].
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_149}  status Checked.. everything is fine
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_SW1}  status Checked.. everything is fine
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_3}  status Checked.. everything is fine
+[Ag_14] >>Agent & sensorr Artifact Created ...[Art_14].
+[Ag_9r] cobj_3
+[Ag_9r] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2486.5349973786183
+[Ag_34] >>Agent & sensorr Artifact Created ...[Art_34].
+[Ag_14] cobj_3
+[Ag_14] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 1784.8480130395767
+[Ag_2] >> Voltage Levels in Regulatory Standard Range ---->1.0401   PHASE:   1
+[Ag_4] >> Voltage Levels in Regulatory Standard Range ---->1.0337   PHASE:   1
+[Ag_7] >> Voltage Levels in Regulatory Standard Range ---->1.0266   PHASE:   1
+[Ag_4] >> Current: Normal Range [ 0 - 400Amp]  <<>>  Line1--->Load.S4C   Ph:   Phase 1  Value::18.0137
+[Ag_4] >> Current: Normal Range [ 0 - 400Amp]  <<>>  Line1--->Load.S4C   Ph:   Phase 2  Value::18.0137
+[Ag_5] >> Voltage Levels in Regulatory Standard Range ---->1.0329   PHASE:   1
+[Ag_5] >> Current: Normal Range [ 0 - 400Amp]  <<>>  Line1--->Line.L6   Ph:   Phase 1  Value::19.2493
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_2}  status Checked.. everything is fine
+[Ag_7] >> Voltage Levels in Regulatory Standard Range ---->1.038   PHASE:   2
+[Ag_34] cobj_3
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_4}  status Checked.. everything is fine
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_5}  status Checked.. everything is fine
+[Ag_SW3] >>Agent & sensorr Artifact Created ...[Art_18].
+[Ag_34] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2258.532644433148
+[Ag_7] >> Voltage Levels in Regulatory Standard Range ---->1.0305   PHASE:   3
+[Ag_12] >> Voltage Levels in Regulatory Standard Range ---->1.0361   PHASE:   1
+[Ag_11] >>Agent & sensorr Artifact Created ...[Art_11].
+[Ag_SW3] cobj_3
+[Ag_SW3] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 3162.971565761466
+[Ag_7] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line1--->Line.L7   PHASE:   Phase 1  Value::558.372
+[Ag_10] >>Agent & sensorr Artifact Created ...[Art_10].
+[Ag_9] >> Voltage Levels in Regulatory Standard Range ---->1.021   PHASE:   1
+[Ag_11] cobj_3
+[Ag_11] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2510.0263088861007
+[Ag_6] >> Voltage Levels in Regulatory Standard Range ---->1.0323   PHASE:   1
+[Ag_8] >> Voltage Levels in Regulatory Standard Range ---->1.0217   PHASE:   1
+[Ag_7] >> Current: Normal Range [ 0 - 400Amp]  <<>>  Line1--->Line.L7   Ph:   Phase 2  Value::399.545
+[dMS] Cycle::1-->Agent sensors retrived: {Ag_12}  status Checked.. everything is fine
+[Ag_9] >> Current: Normal Range [ 0 - 400Amp]  <<>>  Line1--->Transformer.REG2A   Ph:   Phase 1  Value::14.0196
+[Ag_15] >>Agent & sensorr Artifact Created ...[Art_15].
+[Ag_10] cobj_3
+[Ag_10] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 2867.6003842823957
+[Ag_6] >> Current: Normal Range [ 0 - 400Amp]  <<>>  Line1--->Load.S6C   Ph:   Phase 1  Value::19.2495
+[Ag_7] >> Falt ALERT* Current little OUT OF NORMAL RANGE [400 - 600Amp] Line1--->Line.L7   PHASE:   Phase 3  Value::455.247
+[Ag_8] >> Voltage Levels in Regulatory Standard Range ---->1.0364   PHASE:   2
+[Ag_16] >>Agent & sensorr Artifact Created ...[Art_16].
+[Ag_9] >> Current: Normal Range [ 0 - 400Amp]  <<>>  Line1--->Transformer.REG2A   Ph:   Phase 2  Value::14.0196
+[Ag_8] >> Voltage Levels in Regulatory Standard Range ---->1.027   PHASE:   3
+[Ag_15] cobj_3
+[Ag_6] >> Current: Normal Range [ 0 - 400Amp]  <<>>  Line1--->Load.S6C   Ph:   Phase 2  Value::19.2495
+[Ag_14] >> Voltage Levels in Regulatory Standard Range ---->1.0138   PHASE:   1
+[Ag_9r] >> Voltage Levels in Regulatory Standard Range ---->1.0146   PHASE:   1
+[Ag_7] Error in internal action '.send("dMS",achieve,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:133): Receiver 'dMS' does not exists! Could not send <mid55,Ag_7,achieve,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid55,Ag_7,achieve,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_34] >> Voltage Levels in Regulatory Standard Range ---->1.0209   PHASE:   1
+[Ag_15] >>> Sensoring cycle [ 1 ] started... Seting coordenation time for sensing msgs and validate data ------->> 1739.3693742777182
+[Ag_6] Error in internal action '.send("dMS",achieve,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:133): Receiver 'dMS' does not exists! Could not send <mid56,Ag_6,achieve,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid56,Ag_6,achieve,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_34] >> Current: Normal Range [ 0 - 400Amp]  <<>>  Line1--->Line.L34   Ph:   Phase 1  Value::27.3884

@@ -1,0 +1,957 @@
+[JaCaMoLauncher] Workspace grid_environment created.
+[dMS]  DMS Agent Initieted --->>[dMS]... 
+[simulationCall] 
+
+
+Workspace Dimenssion Created and Named: grid_environment
+[dMS] dMS FOUND and focusing on---> cobj_2 Or -- >initSim
+[dMS] dMS Just got in the Dimension:: grid_environment
+[simulationCall] Exogenous Environment Artifact Created & set for the Power Distribution Study System.....
+
+
+[Ag_150] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_150]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_150 created and initiented !!! [Ag_150]... 
+[Ag_150] sensoring coordenation timing for the agnt  ------->> 13291.745635309571
+[Ag_Line_SW1] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_Line_SW1]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_150r created and initiented !!! [Ag_Line_SW1]... 
+[Ag_Line_SW1] sensoring coordenation timing for the agnt  ------->> 20719.01234965081
+[Ag_149] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_149]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_149 created and initiented !!! [Ag_149]... 
+[Ag_149] sensoring coordenation timing for the agnt  ------->> 7818.309572756236
+[Ag_1] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_1]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_1 created and initiented !!! [Ag_1]... 
+[Ag_1] sensoring coordenation timing for the agnt  ------->> 5196.537527068556
+[Ag_2] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_2]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_2 created and initiented !!! [Ag_2]... 
+[Ag_2] sensoring coordenation timing for the agnt  ------->> 4710.656813991334
+[Ag_3] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_3]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_3 created and initiented !!! [Ag_3]... 
+[Ag_3] sensoring coordenation timing for the agnt  ------->> 22263.209400424195
+[Ag_7] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_7]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_7 created and initiented !!! [Ag_7]... 
+[Ag_7] sensoring coordenation timing for the agnt  ------->> 21549.728132868528
+[Ag_4] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_4]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_4 created and initiented !!! [Ag_4]... 
+[Ag_4] sensoring coordenation timing for the agnt  ------->> 8829.513675408827
+[Ag_5] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_5]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_5 created and initiented !!! [Ag_5]... 
+[Ag_5] sensoring coordenation timing for the agnt  ------->> 15506.109565906581
+[Ag_6] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_6]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_6 created and initiented !!! [Ag_6]... 
+[Ag_6] sensoring coordenation timing for the agnt  ------->> 9771.804098454304
+[Ag_8] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_8]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_8 created and initiented !!! [Ag_8]... 
+[Ag_8] sensoring coordenation timing for the agnt  ------->> 18866.320359123627
+[Ag_12] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_12]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_12 created and initiented !!! [Ag_12]... 
+[Ag_12] sensoring coordenation timing for the agnt  ------->> 7300.460141933614
+[Ag_9] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_9]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_9 created and initiented !!! [Ag_9]... 
+[Ag_9] sensoring coordenation timing for the agnt  ------->> 20567.17424665944
+[Ag_Line_SW2] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_Line_SW2]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_13 created and initiented !!! [Ag_Line_SW2]... 
+[Ag_Line_SW2] sensoring coordenation timing for the agnt  ------->> 16103.227872531665
+[Ag_9r] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_9r]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_9r created and initiented !!! [Ag_9r]... 
+[Ag_9r] sensoring coordenation timing for the agnt  ------->> 19356.75774154018
+[Ag_14] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_14]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_14 created and initiented !!! [Ag_14]... 
+[Ag_14] sensoring coordenation timing for the agnt  ------->> 14606.845262555446
+[Ag_34] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_34]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_34 created and initiented !!! [Ag_34]... 
+[Ag_34] sensoring coordenation timing for the agnt  ------->> 18470.38484597823
+[Ag_Line_SW3] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_Line_SW3]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_18 created and initiented !!! [Ag_Line_SW3]... 
+[Ag_Line_SW3] sensoring coordenation timing for the agnt  ------->> 17108.119742573683
+[Ag_11] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_11]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_11 created and initiented !!! [Ag_11]... 
+[Ag_11] sensoring coordenation timing for the agnt  ------->> 20775.257948339306
+[Ag_10] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_2] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_1] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_10]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_10 created and initiented !!! [Ag_10]... 
+[Ag_2] >>Voltage Levels in Regulatory Standard Range ---->1.0401   PHASE:   1
+[Ag_2] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S2B   Ph:   Phase 1  Value::8.95093
+[Ag_10] sensoring coordenation timing for the agnt  ------->> 18614.972940819127
+[Ag_2] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S2B   Ph:   Phase 2  Value::8.95093
+[Ag_15] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_2} Voltage Checked... everything is fine
+[Ag_1] >>Voltage Levels in Regulatory Standard Range ---->1.0341   PHASE:   1
+[Ag_15]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_15 created and initiented !!! [Ag_15]... 
+[Ag_15] sensoring coordenation timing for the agnt  ------->> 19884.000744656532
+[Ag_16] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_1] >>Voltage Levels in Regulatory Standard Range ---->1.0403   PHASE:   2
+[Ag_16]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_16 created and initiented !!! [Ag_16]... 
+[Ag_16] sensoring coordenation timing for the agnt  ------->> 15209.769657767287
+[Ag_17] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_1] >>Voltage Levels in Regulatory Standard Range ---->1.0357   PHASE:   3
+[Ag_1] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L1   Ph:   Phase 1  Value::8.95078
+[Ag_17]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_17 created and initiented !!! [Ag_17]... 
+[Ag_1] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L2   Ph:   Phase 1  Value::46.5794
+[Ag_17] sensoring coordenation timing for the agnt  ------->> 18356.544495375278
+[Ag_19] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_1]   FALT ALERT***!!!
+
+[Ag_1] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line3--->Line.L3   PHASE:   Phase 1  Value::562.87
+[Ag_19]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_19 created and initiented !!! [Ag_19]... 
+[Ag_19] sensoring coordenation timing for the agnt  ------->> 16458.90158407744
+[Ag_21] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_1] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line3--->Line.L3   Ph:   Phase 2  Value::399.544
+[Ag_1]   FALT ALERT***!!!
+
+[Ag_1] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line3--->Line.L3   PHASE:   Phase 3  Value::455.247
+[Ag_1] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line4--->Load.S1A   Ph:   Phase 1  Value::4.50165
+[Ag_149] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_21]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_21 created and initiented !!! [Ag_21]... 
+[Ag_1] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line4--->Load.S1A   Ph:   Phase 2  Value::4.50165
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_1} Voltage Checked... everything is fine
+[Ag_21] sensoring coordenation timing for the agnt  ------->> 16800.08884185693
+[Ag_149] >>Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   1
+[Ag_20] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_149] >>Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   2
+[Ag_20]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_20 created and initiented !!! [Ag_20]... 
+[Ag_20] sensoring coordenation timing for the agnt  ------->> 6857.801907005201
+[Ag_22] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_149] >>Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   3
+[Ag_149]   FALT ALERT***!!!
+
+[Ag_149] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Line.L115   PHASE:   Phase 1  Value::567.339
+[Ag_149]   FALT ALERT***!!!
+
+[Ag_22]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_22 created and initiented !!! [Ag_22]... 
+[Ag_149] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Line.L115   PHASE:   Phase 2  Value::408.416
+[Ag_22] sensoring coordenation timing for the agnt  ------->> 19342.32176148986
+[Ag_23] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_149]   FALT ALERT***!!!
+
+[Ag_149] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Line.L115   PHASE:   Phase 3  Value::501.222
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_149} Voltage Checked... everything is fine
+[Ag_23]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_23 created and initiented !!! [Ag_23]... 
+[Ag_23] sensoring coordenation timing for the agnt  ------->> 7189.231470409216
+[Ag_24] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_24]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_24 created and initiented !!! [Ag_24]... 
+[Ag_24] sensoring coordenation timing for the agnt  ------->> 14904.295688555778
+[Ag_25] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_25]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_25 created and initiented !!! [Ag_25]... 
+[Ag_25] sensoring coordenation timing for the agnt  ------->> 10810.976440775154
+[Ag_25r] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_25r]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_25r created and initiented !!! [Ag_25r]... 
+[Ag_25r] sensoring coordenation timing for the agnt  ------->> 12153.164070885186
+[Ag_26] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_12] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_26]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_26 created and initiented !!! [Ag_26]... 
+[Ag_26] sensoring coordenation timing for the agnt  ------->> 18759.450732465368
+[Ag_28] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_4] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_12] >>Voltage Levels in Regulatory Standard Range ---->1.0361   PHASE:   1
+[Ag_28]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_28 created and initiented !!! [Ag_28]... 
+[Ag_4] >>Voltage Levels in Regulatory Standard Range ---->1.0337   PHASE:   1
+[Ag_28] sensoring coordenation timing for the agnt  ------->> 17594.362774637375
+[Ag_27] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_12] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S12B   Ph:   Phase 1  Value::8.9853
+[Ag_12] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S12B   Ph:   Phase 2  Value::8.9853
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_12} Voltage Checked... everything is fine
+[Ag_4] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S4C   Ph:   Phase 1  Value::18.0137
+[Ag_4] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S4C   Ph:   Phase 2  Value::18.0137
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_4} Voltage Checked... everything is fine
+[Ag_27]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_27 created and initiented !!! [Ag_27]... 
+[Ag_27] sensoring coordenation timing for the agnt  ------->> 20796.7710989853
+[Ag_31] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_31]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_31 created and initiented !!! [Ag_31]... 
+[Ag_31] sensoring coordenation timing for the agnt  ------->> 23497.14011600177
+[Ag_33] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_33]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_33 created and initiented !!! [Ag_33]... 
+[Ag_33] sensoring coordenation timing for the agnt  ------->> 19435.614596984888
+[Ag_29] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_29]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_29 created and initiented !!! [Ag_29]... 
+[Ag_29] sensoring coordenation timing for the agnt  ------->> 9172.099672946279
+[Ag_30] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_6] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_150] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_30]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_30 created and initiented !!! [Ag_30]... 
+[Ag_30] sensoring coordenation timing for the agnt  ------->> 12999.714710764514
+[Ag_250] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_6] >>Voltage Levels in Regulatory Standard Range ---->1.0323   PHASE:   1
+[Ag_150] >>Voltage Levels in Regulatory Standard Range ---->0.99999   PHASE:   1
+[Ag_250]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_250 created and initiented !!! [Ag_250]... 
+[Ag_150] >>Voltage Levels in Regulatory Standard Range ---->0.99999   PHASE:   2
+[Ag_250] sensoring coordenation timing for the agnt  ------->> 18376.414483900335
+[Ag_32] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_6] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S6C   Ph:   Phase 1  Value::19.2495
+[Ag_32]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_32 created and initiented !!! [Ag_32]... 
+[Ag_32] sensoring coordenation timing for the agnt  ------->> 22025.63991830565
+[Ag_35] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_6] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S6C   Ph:   Phase 2  Value::19.2495
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_6} Voltage Checked... everything is fine
+[Ag_150] >>Voltage Levels in Regulatory Standard Range ---->0.99999   PHASE:   3
+[Ag_150]   FALT ALERT***!!!
+
+[Ag_150] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Transformer.REG1A   PHASE:   Phase 1  Value::592.16
+[Ag_150]   FALT ALERT***!!!
+
+[Ag_150] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Transformer.REG1A   PHASE:   Phase 2  Value::426.285
+[Ag_35]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_35 created and initiented !!! [Ag_35]... 
+[Ag_35] sensoring coordenation timing for the agnt  ------->> 16559.71151376337
+[Ag_36] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_150]   FALT ALERT***!!!
+
+[Ag_150] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Transformer.REG1A   PHASE:   Phase 3  Value::523.15
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_150} Voltage Checked... everything is fine
+[Ag_36]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_36 created and initiented !!! [Ag_36]... 
+[Ag_36] sensoring coordenation timing for the agnt  ------->> 16047.229139892701
+[Ag_40] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_40]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_40 created and initiented !!! [Ag_40]... 
+[Ag_40] sensoring coordenation timing for the agnt  ------->> 7435.4927342666115
+[Ag_37] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_37]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_37 created and initiented !!! [Ag_37]... 
+[Ag_37] sensoring coordenation timing for the agnt  ------->> 22947.576402416635
+[Ag_38] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_38]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_38 created and initiented !!! [Ag_38]... 
+[Ag_38] sensoring coordenation timing for the agnt  ------->> 3530.0376734447827
+[Ag_39] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_20] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_20] >>Voltage Levels in Regulatory Standard Range ---->1.0058   PHASE:   1
+[Ag_39]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_39 created and initiented !!! [Ag_39]... 
+[Ag_39] sensoring coordenation timing for the agnt  ------->> 8691.043654004416
+[Ag_41] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_20] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S20A   Ph:   Phase 1  Value::18.6339
+[Ag_20] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S20A   Ph:   Phase 2  Value::18.6339
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_20} Voltage Checked... everything is fine
+[Ag_41]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_41 created and initiented !!! [Ag_41]... 
+[Ag_41] sensoring coordenation timing for the agnt  ------->> 13389.693883992528
+[Ag_42] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_42]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_42 created and initiented !!! [Ag_42]... 
+[Ag_42] sensoring coordenation timing for the agnt  ------->> 17091.74310828596
+[Ag_43] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_23] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_43]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_43 created and initiented !!! [Ag_43]... 
+[Ag_43] sensoring coordenation timing for the agnt  ------->> 18891.44022867432
+[Ag_44] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_23] >>Voltage Levels in Regulatory Standard Range ---->1.007   PHASE:   1
+[Ag_44]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_44 created and initiented !!! [Ag_44]... 
+[Ag_44] sensoring coordenation timing for the agnt  ------->> 18224.03233032767
+[Ag_45] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_23] >>Voltage Levels in Regulatory Standard Range ---->1.03   PHASE:   2
+[Ag_23] >>Voltage Levels in Regulatory Standard Range ---->1.0133   PHASE:   3
+[Ag_45]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_45 created and initiented !!! [Ag_45]... 
+[Ag_45] sensoring coordenation timing for the agnt  ------->> 13379.862014217668
+[Ag_47] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_23] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L23   Ph:   Phase 1  Value::18.3996
+[Ag_47]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_47 created and initiented !!! [Ag_47]... 
+[Ag_47] sensoring coordenation timing for the agnt  ------->> 13679.675642727694
+[Ag_46] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_23] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L24   Ph:   Phase 1  Value::46.7105
+[Ag_23] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L24   Ph:   Phase 2  Value::0.00326441
+[Ag_23] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L24   Ph:   Phase 3  Value::36.8168
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_23} Voltage Checked... everything is fine
+[Ag_46]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_46 created and initiented !!! [Ag_46]... 
+[Ag_5] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_46] sensoring coordenation timing for the agnt  ------->> 10331.748933223294
+[Ag_48] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_5] >>Voltage Levels in Regulatory Standard Range ---->1.0329   PHASE:   1
+[Ag_48]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_48 created and initiented !!! [Ag_48]... 
+[Ag_5] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L6   Ph:   Phase 1  Value::19.2493
+[Ag_48] sensoring coordenation timing for the agnt  ------->> 20826.63287145409
+[Ag_49] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_49]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_49 created and initiented !!! [Ag_49]... 
+[Ag_5] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S5C   Ph:   Phase 1  Value::9.31695
+[Ag_49] sensoring coordenation timing for the agnt  ------->> 17019.24333789475
+[Ag_50] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_38] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_50]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_50 created and initiented !!! [Ag_50]... 
+[Ag_5] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S5C   Ph:   Phase 2  Value::9.31695
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_5} Voltage Checked... everything is fine
+[Ag_38] >>Voltage Levels in Regulatory Standard Range ---->1.0264   PHASE:   1
+[Ag_50] sensoring coordenation timing for the agnt  ------->> 17883.36884627062
+[Ag_51] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_51]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_51 created and initiented !!! [Ag_51]... 
+[Ag_38] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L39   Ph:   Phase 1  Value::9.07373
+[Ag_51] sensoring coordenation timing for the agnt  ------->> 18701.83867141403
+[Ag_Line_SW7] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_Line_SW7]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_151 created and initiented !!! [Ag_Line_SW7]... 
+[Ag_14] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_38] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S38B   Ph:   Phase 1  Value::9.31695
+[Ag_Line_SW7] sensoring coordenation timing for the agnt  ------->> 13503.79191526919
+[Ag_52] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_38] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S38B   Ph:   Phase 2  Value::9.31695
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_38} Voltage Checked... everything is fine
+[Ag_52]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_52 created and initiented !!! [Ag_52]... 
+[Ag_14] >>Voltage Levels in Regulatory Standard Range ---->1.0138   PHASE:   1
+[Ag_52] sensoring coordenation timing for the agnt  ------->> 10630.882377392923
+[Ag_53] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_14] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L14   Ph:   Phase 1  Value::9.4498
+[Ag_53]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_53 created and initiented !!! [Ag_53]... 
+[Ag_53] sensoring coordenation timing for the agnt  ------->> 17841.355973034755
+[Ag_14] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L15   Ph:   Phase 1  Value::4.65831
+[Ag_Line_SW8] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_14} Voltage Checked... everything is fine
+[Ag_Line_SW8]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_54 created and initiented !!! [Ag_Line_SW8]... 
+[Ag_Line_SW8] sensoring coordenation timing for the agnt  ------->> 23408.095217398488
+[Ag_55] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_Line_SW2] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_55]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_55 created and initiented !!! [Ag_55]... 
+[Ag_55] sensoring coordenation timing for the agnt  ------->> 16052.687022768512
+[Ag_57] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_Line_SW2] >>Voltage Levels in Regulatory Standard Range ---->1.0149   PHASE:   1
+[Ag_57]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_57 created and initiented !!! [Ag_57]... 
+[Ag_Line_SW2] >>Voltage Levels in Regulatory Standard Range ---->1.034   PHASE:   2
+[Ag_57] sensoring coordenation timing for the agnt  ------->> 16718.814213072157
+[Ag_56] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_56]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_56 created and initiented !!! [Ag_56]... 
+[Ag_Line_SW1] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_Line_SW2] >>Voltage Levels in Regulatory Standard Range ---->1.0218   PHASE:   3
+[Ag_56] sensoring coordenation timing for the agnt  ------->> 16893.69905844057
+[Ag_58] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_Line_SW1] >>Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   1
+[Ag_58]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_58 created and initiented !!! [Ag_58]... 
+[Ag_Line_SW1] >>Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   2
+[Ag_58] sensoring coordenation timing for the agnt  ------->> 8284.183942419004
+[Ag_Line_SW4] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_Line_SW2] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L12   Ph:   Phase 1  Value::46.4253
+[Ag_25] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_Line_SW4]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_60 created and initiented !!! [Ag_Line_SW4]... 
+[Ag_Line_SW2] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L13   Ph:   Phase 1  Value::210.474
+[Ag_Line_SW1] >>Voltage Levels in Regulatory Standard Range ---->1.0437   PHASE:   3
+[Ag_Line_SW4] sensoring coordenation timing for the agnt  ------->> 20593.267127561678
+[Ag_59] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_25] >>Voltage Levels in Regulatory Standard Range ---->1.0065   PHASE:   1
+[Ag_Line_SW1]   FALT ALERT***!!!
+
+[Ag_Line_SW1] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Line.SW1   PHASE:   Phase 1  Value::567.339
+[Ag_59]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_59 created and initiented !!! [Ag_59]... 
+[Ag_Line_SW2] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L13   Ph:   Phase 2  Value::155.518
+[Ag_59] sensoring coordenation timing for the agnt  ------->> 24073.7416245706
+[Ag_Line_SW6] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_25] >>Voltage Levels in Regulatory Standard Range ---->1.0303   PHASE:   2
+[Ag_Line_SW6]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_61 created and initiented !!! [Ag_Line_SW6]... 
+[Ag_Line_SW1]   FALT ALERT***!!!
+
+[Ag_Line_SW1] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Line.SW1   PHASE:   Phase 2  Value::408.416
+[Ag_Line_SW2] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L13   Ph:   Phase 3  Value::153.139
+[Ag_Line_SW6] sensoring coordenation timing for the agnt  ------->> 16356.030435887142
+[Ag_62] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_25] >>Voltage Levels in Regulatory Standard Range ---->1.0126   PHASE:   3
+[Ag_Line_SW2] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line3--->Line.SW2   Ph:   Phase 1  Value::330.34
+[Ag_29] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_25] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L26   Ph:   Phase 1  Value::28.0775
+[Ag_Line_SW1]   FALT ALERT***!!!
+
+[Ag_Line_SW1] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line1--->Line.SW1   PHASE:   Phase 3  Value::501.222
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_Line_SW1} Voltage Checked... everything is fine
+[Ag_62]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_62 created and initiented !!! [Ag_62]... 
+[Ag_25] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L26   Ph:   Phase 2  Value::0.00258694
+[Ag_25] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L26   Ph:   Phase 3  Value::18.4075
+[Ag_Line_SW2] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line3--->Line.SW2   Ph:   Phase 2  Value::244.711
+[Ag_62] sensoring coordenation timing for the agnt  ------->> 8826.221845152322
+[Ag_63] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_16] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_8] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_29] >>Voltage Levels in Regulatory Standard Range ---->1.0061   PHASE:   1
+[Ag_Line_SW2] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line3--->Line.SW2   Ph:   Phase 3  Value::264.845
+[Ag_25] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Transformer.REG3A   Ph:   Phase 1  Value::18.6333
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_Line_SW2} Voltage Checked... everything is fine
+[Ag_63]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_63 created and initiented !!! [Ag_63]... 
+[Ag_40] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_8] >>Voltage Levels in Regulatory Standard Range ---->1.0217   PHASE:   1
+[Ag_40] >>Voltage Levels in Regulatory Standard Range ---->1.0037   PHASE:   1
+[Ag_40] >>Voltage Levels in Regulatory Standard Range ---->1.0264   PHASE:   2
+[Ag_63] sensoring coordenation timing for the agnt  ------->> 15597.949063803691
+[Ag_64] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_16] >>Voltage Levels in Regulatory Standard Range ---->1.0196   PHASE:   1
+[Ag_29] >>Voltage Levels in Regulatory Standard Range ---->1.0306   PHASE:   2
+[Ag_16] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S16C   Ph:   Phase 1  Value::18.2622
+[Ag_64]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_64 created and initiented !!! [Ag_64]... 
+[Ag_8] >>Voltage Levels in Regulatory Standard Range ---->1.0364   PHASE:   2
+[Ag_40] >>Voltage Levels in Regulatory Standard Range ---->1.0133   PHASE:   3
+[Ag_25] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Transformer.REG3A   Ph:   Phase 2  Value::18.6333
+[Ag_Line_SW3] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_64] sensoring coordenation timing for the agnt  ------->> 28083.82301360069
+[Ag_65] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_40] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L40   Ph:   Phase 1  Value::9.19087
+[Ag_29] >>Voltage Levels in Regulatory Standard Range ---->1.0119   PHASE:   3
+[Ag_16] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S16C   Ph:   Phase 2  Value::18.2622
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_16} Voltage Checked... everything is fine
+[Ag_65]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_65 created and initiented !!! [Ag_65]... 
+[Ag_Line_SW3] >>Voltage Levels in Regulatory Standard Range ---->1.0076   PHASE:   1
+[Ag_40] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L41   Ph:   Phase 1  Value::108.555
+[Ag_8] >>Voltage Levels in Regulatory Standard Range ---->1.027   PHASE:   3
+[Ag_65] sensoring coordenation timing for the agnt  ------->> 14963.311724846051
+[Ag_25] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line3--->Transformer.REG3C   Ph:   Phase 1  Value::18.4097
+[Ag_66] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_25] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line3--->Transformer.REG3C   Ph:   Phase 2  Value::18.4097
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_25} Voltage Checked... everything is fine
+[Ag_Line_SW3] >>Voltage Levels in Regulatory Standard Range ---->1.0297   PHASE:   2
+[Ag_Line_SW3] >>Voltage Levels in Regulatory Standard Range ---->1.0153   PHASE:   3
+[Ag_Line_SW3] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L18   Ph:   Phase 1  Value::27.8824
+[Ag_29] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L31   Ph:   Phase 1  Value::0.00157784
+[Ag_8] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L8   Ph:   Phase 1  Value::8.9851
+[Ag_25r] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_40] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L41   Ph:   Phase 2  Value::108.467
+[Ag_66]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_66 created and initiented !!! [Ag_66]... 
+[Ag_67] as2j: parsing error:[C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:260] Expected ';' after '.print(G,"requester Swicth manouver ")'.
+[Ag_7] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_34] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_3] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_9r] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_19] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_9] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_10] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_39] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_24] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_21] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_17] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_30] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_15] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_11] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_46] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_22] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_28] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_58] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_41] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_26] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_52] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_36] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_35] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_45] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_62] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_47] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_33] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_250] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_27] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_Line_SW7] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_42] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_44] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_31] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_43] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_49] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_32] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_55] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_50] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_57] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_65] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_53] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_56] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_63] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_51] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_37] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_Line_SW6] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_48] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_Line_SW4] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_66] sensoring coordenation timing for the agnt  ------->> 16001.619143405609
+[Ag_29] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L31   Ph:   Phase 2  Value::0.00135508
+[Ag_29] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L31   Ph:   Phase 3  Value::18.4083
+[Ag_40] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L41   Ph:   Phase 3  Value::88.9511
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_40} Voltage Checked... everything is fine
+[Ag_19] >>Voltage Levels in Regulatory Standard Range ---->1.0067   PHASE:   1
+[Ag_8] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L9   Ph:   Phase 1  Value::23.1379
+[Ag_19] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L20   Ph:   Phase 1  Value::18.6338
+[Ag_29] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S29A   Ph:   Phase 1  Value::18.7615
+[Ag_56] >>Voltage Levels in Regulatory Standard Range ---->1.0054   PHASE:   1
+[Ag_56] >>Voltage Levels in Regulatory Standard Range ---->1.0309   PHASE:   2
+[Ag_56] >>Voltage Levels in Regulatory Standard Range ---->1.0164   PHASE:   3
+[Ag_56] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S56B   Ph:   Phase 1  Value::9.03134
+[Ag_56] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S56B   Ph:   Phase 2  Value::9.03134
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_56} Voltage Checked... everything is fine
+[Ag_53] >>Voltage Levels in Regulatory Standard Range ---->1.007   PHASE:   1
+[Ag_36] >>Voltage Levels in Regulatory Standard Range ---->1.0042   PHASE:   1
+[Ag_36] >>Voltage Levels in Regulatory Standard Range ---->1.027   PHASE:   2
+[Ag_52] >>Voltage Levels in Regulatory Standard Range ---->1.0094   PHASE:   1
+[Ag_26] >>Voltage Levels in Regulatory Standard Range ---->1.0063   PHASE:   1
+[Ag_28] >>Voltage Levels in Regulatory Standard Range ---->1.0063   PHASE:   1
+[Ag_25r] >>Voltage Levels in Regulatory Standard Range ---->1.0065   PHASE:   1
+[Ag_11] >>Voltage Levels in Regulatory Standard Range ---->1.0135   PHASE:   1
+[Ag_30] >>Voltage Levels in Regulatory Standard Range ---->1.0063   PHASE:   1
+[Ag_10] >>Voltage Levels in Regulatory Standard Range ---->1.0137   PHASE:   1
+[Ag_3] >>Voltage Levels in Regulatory Standard Range ---->1.0341   PHASE:   1
+[Ag_48] >>Voltage Levels in Regulatory Standard Range ---->1.0002   PHASE:   1
+[Ag_Line_SW6] >>Voltage Levels in Regulatory Standard Range ---->0.99651   PHASE:   1
+[Ag_67]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_67 created and initiented !!! [Ag_67]... 
+[Ag_27] >>Voltage Levels in Regulatory Standard Range ---->1.0059   PHASE:   1
+[Ag_35] >>Voltage Levels in Regulatory Standard Range ---->1.0051   PHASE:   1
+[Ag_33] >>Voltage Levels in Regulatory Standard Range ---->1.0047   PHASE:   1
+[Ag_51] >>Voltage Levels in Regulatory Standard Range ---->0.99999   PHASE:   1
+[Ag_36] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L37   Ph:   Phase 1  Value::18.7127
+[Ag_36] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L38   Ph:   Phase 1  Value::18.3905
+[Ag_29] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S29A   Ph:   Phase 2  Value::18.7615
+[Ag_26] >>Voltage Levels in Regulatory Standard Range ---->1.0058   PHASE:   2
+[Ag_19] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S19A   Ph:   Phase 1  Value::9.24864
+[Ag_9] >>Voltage Levels in Regulatory Standard Range ---->1.021   PHASE:   1
+[Ag_39] >>Voltage Levels in Regulatory Standard Range ---->1.026   PHASE:   1
+[Ag_21] >>Voltage Levels in Regulatory Standard Range ---->1.0072   PHASE:   1
+[Ag_24] >>Voltage Levels in Regulatory Standard Range ---->1.012   PHASE:   1
+[Ag_34] >>Voltage Levels in Regulatory Standard Range ---->1.0209   PHASE:   1
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_36} Voltage Checked... everything is fine
+[Ag_Line_SW6] >>Voltage Levels in Regulatory Standard Range ---->1.0235   PHASE:   2
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_29} Voltage Checked... everything is fine
+[Ag_63] >>Voltage Levels in Regulatory Standard Range ---->0.9952   PHASE:   1
+[Ag_65] >>Voltage Levels in Regulatory Standard Range ---->0.99423   PHASE:   1
+[Ag_32] >>Voltage Levels in Regulatory Standard Range ---->1.0049   PHASE:   1
+[Ag_49] >>Voltage Levels in Regulatory Standard Range ---->1.0002   PHASE:   1
+[Ag_50] >>Voltage Levels in Regulatory Standard Range ---->1.0001   PHASE:   1
+[Ag_37] >>Voltage Levels in Regulatory Standard Range ---->1.0035   PHASE:   1
+[Ag_8]   FALT ALERT***!!!
+
+[Ag_55] >>Voltage Levels in Regulatory Standard Range ---->1.0054   PHASE:   1
+[Ag_8] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line3--->Line.L10   PHASE:   Phase 1  Value::535.442
+[Ag_57] >>Voltage Levels in Regulatory Standard Range ---->1.0026   PHASE:   1
+[Ag_42] >>Voltage Levels in Regulatory Standard Range ---->1.0023   PHASE:   1
+[Ag_Line_SW7] >>Voltage Levels in Regulatory Standard Range ---->0.99999   PHASE:   1
+[Ag_44] >>Voltage Levels in Regulatory Standard Range ---->1.0013   PHASE:   1
+[Ag_67] sensoring coordenation timing for the agnt  ------->> 21073.61396456742
+[Ag_53] >>Voltage Levels in Regulatory Standard Range ---->1.0317   PHASE:   2
+[Ag_31] >>Voltage Levels in Regulatory Standard Range ---->1.0052   PHASE:   1
+[Ag_Line_SW4] >>Voltage Levels in Regulatory Standard Range ---->0.99651   PHASE:   1
+[Ag_43] >>Voltage Levels in Regulatory Standard Range ---->1.0241   PHASE:   1
+[Ag_Line_SW3] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L19   Ph:   Phase 1  Value::46.7099
+[Ag_250] >>Voltage Levels in Regulatory Standard Range ---->1.0063   PHASE:   1
+[Ag_47] >>Voltage Levels in Regulatory Standard Range ---->1.0004   PHASE:   1
+[Ag_39] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S39B   Ph:   Phase 1  Value::9.07402
+[Ag_62] >>Voltage Levels in Regulatory Standard Range ---->0.99577   PHASE:   1
+[Ag_45] >>Voltage Levels in Regulatory Standard Range ---->1.0008   PHASE:   1
+[Ag_58] >>Voltage Levels in Regulatory Standard Range ---->1.0278   PHASE:   1
+[Ag_62] >>Voltage Levels in Regulatory Standard Range ---->1.0225   PHASE:   2
+[Ag_62] >>Voltage Levels in Regulatory Standard Range ---->1.0059   PHASE:   3
+[Ag_41] >>Voltage Levels in Regulatory Standard Range ---->1.013   PHASE:   1
+[Ag_22] >>Voltage Levels in Regulatory Standard Range ---->1.0284   PHASE:   1
+[Ag_46] >>Voltage Levels in Regulatory Standard Range ---->1.0005   PHASE:   1
+[Ag_15] >>Voltage Levels in Regulatory Standard Range ---->1.0205   PHASE:   1
+[Ag_11] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S11A   Ph:   Phase 1  Value::9.44993
+[Ag_10] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S10A   Ph:   Phase 1  Value::4.65847
+[Ag_9r] >>Voltage Levels in Regulatory Standard Range ---->1.0146   PHASE:   1
+[Ag_30] >>Voltage Levels in Regulatory Standard Range ---->1.0305   PHASE:   2
+[Ag_7] >>Voltage Levels in Regulatory Standard Range ---->1.0266   PHASE:   1
+[Ag_17] >>Voltage Levels in Regulatory Standard Range ---->1.0201   PHASE:   1
+[Ag_17] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S17C   Ph:   Phase 1  Value::9.12674
+[Ag_35] >>Voltage Levels in Regulatory Standard Range ---->1.0274   PHASE:   2
+[Ag_27] >>Voltage Levels in Regulatory Standard Range ---->1.0058   PHASE:   2
+[Ag_51] >>Voltage Levels in Regulatory Standard Range ---->1.0234   PHASE:   2
+[Ag_68]  Detected!! >>>> Agent BussBar & sensor Artifact::Art_68 created and initiented !!! [Ag_68]... 
+[Ag_52] >>Voltage Levels in Regulatory Standard Range ---->1.0325   PHASE:   2
+[Ag_26] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L27   Ph:   Phase 1  Value::18.6335
+[Ag_62] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L62   Ph:   Phase 1  Value::45.3462
+[Ag_Line_SW6] >>Voltage Levels in Regulatory Standard Range ---->1.0079   PHASE:   3
+[Ag_28] >>Voltage Levels in Regulatory Standard Range ---->1.0304   PHASE:   2
+[Ag_22] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S22B   Ph:   Phase 1  Value::19.1765
+[Ag_25r] >>Voltage Levels in Regulatory Standard Range ---->1.0062   PHASE:   2
+[Ag_3] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L4   Ph:   Phase 1  Value::18.0136
+[Ag_48] >>Voltage Levels in Regulatory Standard Range ---->1.0235   PHASE:   2
+[Ag_10] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S10A   Ph:   Phase 2  Value::4.65847
+[Ag_9r] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L11   Ph:   Phase 1  Value::14.1078
+[Ag_7] >>Voltage Levels in Regulatory Standard Range ---->1.038   PHASE:   2
+[Ag_35] >>Voltage Levels in Regulatory Standard Range ---->1.0143   PHASE:   3
+[Ag_33] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S33A   Ph:   Phase 1  Value::18.6339
+[Ag_32] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S32C   Ph:   Phase 1  Value::9.265
+[Ag_51] >>Voltage Levels in Regulatory Standard Range ---->1.0103   PHASE:   3
+[Ag_37] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S37A   Ph:   Phase 1  Value::18.7128
+[Ag_8] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line3--->Line.L10   Ph:   Phase 2  Value::390.649
+[Ag_55] >>Voltage Levels in Regulatory Standard Range ---->1.031   PHASE:   2
+[Ag_26] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L27   Ph:   Phase 2  Value::6.06135E-4
+[Ag_19] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S19A   Ph:   Phase 2  Value::9.24864
+[Ag_9] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Transformer.REG2A   Ph:   Phase 1  Value::14.0196
+[Ag_62] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L62   Ph:   Phase 2  Value::52.321
+[Ag_57] >>Voltage Levels in Regulatory Standard Range ---->1.0284   PHASE:   2
+[Ag_46] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S46A   Ph:   Phase 1  Value::9.30576
+[Ag_Line_SW7] >>Voltage Levels in Regulatory Standard Range ---->1.0234   PHASE:   2
+[Ag_42] >>Voltage Levels in Regulatory Standard Range ---->1.0254   PHASE:   2
+[Ag_44] >>Voltage Levels in Regulatory Standard Range ---->1.0247   PHASE:   2
+[Ag_53] >>Voltage Levels in Regulatory Standard Range ---->1.0172   PHASE:   3
+[Ag_31] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L33   Ph:   Phase 1  Value::9.26482
+[Ag_Line_SW3] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L19   Ph:   Phase 2  Value::19.1742
+[Ag_43] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S43B   Ph:   Phase 1  Value::19.0972
+[Ag_Line_SW4] >>Voltage Levels in Regulatory Standard Range ---->1.0235   PHASE:   2
+[Ag_47] >>Voltage Levels in Regulatory Standard Range ---->1.0238   PHASE:   2
+[Ag_250] >>Voltage Levels in Regulatory Standard Range ---->1.0305   PHASE:   2
+[Ag_24] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S24C   Ph:   Phase 1  Value::18.3999
+[Ag_39] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S39B   Ph:   Phase 2  Value::9.07402
+[Ag_17] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S17C   Ph:   Phase 2  Value::9.12674
+[Ag_45] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L46   Ph:   Phase 1  Value::9.30563
+[Ag_58] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L59   Ph:   Phase 1  Value::9.06069
+[Ag_15] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L16   Ph:   Phase 1  Value::18.262
+[Ag_15] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L17   Ph:   Phase 1  Value::9.12652
+[Ag_11] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S11A   Ph:   Phase 2  Value::9.44993
+[Ag_49] >>Voltage Levels in Regulatory Standard Range ---->1.0233   PHASE:   2
+[Ag_49] >>Voltage Levels in Regulatory Standard Range ---->1.0106   PHASE:   3
+[Ag_49] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L49   Ph:   Phase 1  Value::9.30998
+[Ag_49] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L49   Ph:   Phase 2  Value::0.00264877
+[Ag_49] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L49   Ph:   Phase 3  Value::18.4301
+[Ag_30] >>Voltage Levels in Regulatory Standard Range ---->1.0115   PHASE:   3
+[Ag_30] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L32   Ph:   Phase 1  Value::5.73766E-4
+[Ag_30] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L32   Ph:   Phase 2  Value::4.92753E-4
+[Ag_27] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L29   Ph:   Phase 1  Value::18.6337
+[Ag_21] >>Voltage Levels in Regulatory Standard Range ---->1.0297   PHASE:   2
+[Ag_41] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S41C   Ph:   Phase 1  Value::9.19107
+[Ag_34] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L34   Ph:   Phase 1  Value::27.3884
+[Ag_22] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S22B   Ph:   Phase 2  Value::19.1765
+[Ag_Line_SW6] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.SW6   Ph:   Phase 1  Value::1.38663E-5
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_17} Voltage Checked... everything is fine
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_39} Voltage Checked... everything is fine
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_19} Voltage Checked... everything is fine
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_9r} Voltage Checked... everything is fine
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_10} Voltage Checked... everything is fine
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_15} Voltage Checked... everything is fine
+[Ag_63] >>Voltage Levels in Regulatory Standard Range ---->1.0216   PHASE:   2
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_11} Voltage Checked... everything is fine
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_27} Voltage Checked... everything is fine
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_22} Voltage Checked... everything is fine
+[Ag_65] >>Voltage Levels in Regulatory Standard Range ---->1.0195   PHASE:   2
+[Ag_65] >>Voltage Levels in Regulatory Standard Range ---->0.99988   PHASE:   3
+[Ag_65] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L65   Ph:   Phase 1  Value::0.00823468
+[Ag_65] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L65   Ph:   Phase 2  Value::0.00844429
+[Ag_65] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L65   Ph:   Phase 3  Value::34.5112
+[Ag_65] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S65A   Ph:   Phase 1  Value::10.347
+[Ag_50] >>Voltage Levels in Regulatory Standard Range ---->1.0233   PHASE:   2
+[Ag_68] sensoring coordenation timing for the agnt  ------->> 22803.603241983164
+[Ag_50] >>Voltage Levels in Regulatory Standard Range ---->1.0103   PHASE:   3
+[Ag_50] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L50   Ph:   Phase 1  Value::9.31006
+[Ag_50] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L50   Ph:   Phase 2  Value::0.00198662
+[Ag_50] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L50   Ph:   Phase 3  Value::0.00201973
+[Ag_49] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S49A   Ph:   Phase 1  Value::17.9055
+[Ag_52] >>Voltage Levels in Regulatory Standard Range ---->1.0187   PHASE:   3
+[Ag_41] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S41C   Ph:   Phase 2  Value::9.19107
+[dMS] Cycle::1-->Agent sensor valtage retrived:: {Ag_41} Voltage Checked... everything is fine
+[Ag_28] >>Voltage Levels in Regulatory Standard Range ---->1.0123   PHASE:   3
+[Ag_28] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L30   Ph:   Phase 1  Value::18.7607
+[Ag_28] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L30   Ph:   Phase 2  Value::0.0020942
+[Ag_25r] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L25   Ph:   Phase 1  Value::18.6333
+[Ag_30] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L32   Ph:   Phase 3  Value::5.39095E-4
+[Ag_33] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S33A   Ph:   Phase 2  Value::18.6339
+[Ag_32] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S32C   Ph:   Phase 2  Value::9.265
+[Ag_34] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S34C   Ph:   Phase 1  Value::19.0369
+[Ag_51] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L51   Ph:   Phase 1  Value::0.00102892
+[Ag_7] >>Voltage Levels in Regulatory Standard Range ---->1.0305   PHASE:   3
+[Ag_35] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L35   Ph:   Phase 1  Value::18.7119
+[Ag_65] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S65A   Ph:   Phase 2  Value::10.347
+[Ag_32] Error in internal action '.send("dMS",tell,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:126): Receiver 'dMS' does not exists! Could not send <mid257,Ag_32,tell,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid257,Ag_32,tell,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_37] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S37A   Ph:   Phase 2  Value::18.7128
+[Ag_21] >>Voltage Levels in Regulatory Standard Range ---->1.0143   PHASE:   3
+[Ag_Line_SW6] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.SW6   Ph:   Phase 2  Value::1.42294E-5
+[Ag_9] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Transformer.REG2A   Ph:   Phase 2  Value::14.0196
+[Ag_8]   FALT ALERT***!!!
+
+[Ag_42] >>Voltage Levels in Regulatory Standard Range ---->1.0125   PHASE:   3
+[Ag_Line_SW7] >>Voltage Levels in Regulatory Standard Range ---->1.0103   PHASE:   3
+[Ag_46] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S46A   Ph:   Phase 2  Value::9.30576
+[Ag_57] >>Voltage Levels in Regulatory Standard Range ---->1.0137   PHASE:   3
+[Ag_31] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S31C   Ph:   Phase 1  Value::9.2616
+[Ag_Line_SW3] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L19   Ph:   Phase 3  Value::55.2156
+[Ag_44] >>Voltage Levels in Regulatory Standard Range ---->1.0118   PHASE:   3
+[Ag_53] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L53   Ph:   Phase 1  Value::294.812
+[Ag_Line_SW4] >>Voltage Levels in Regulatory Standard Range ---->1.0079   PHASE:   3
+[Ag_47] >>Voltage Levels in Regulatory Standard Range ---->1.0109   PHASE:   3
+[Ag_43] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S43B   Ph:   Phase 2  Value::19.0972
+[Ag_3] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Line.L5   Ph:   Phase 1  Value::28.566
+[Ag_58] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S58B   Ph:   Phase 1  Value::9.31695
+[Ag_45] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S45A   Ph:   Phase 1  Value::9.31695
+[Ag_24] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S24C   Ph:   Phase 2  Value::18.3999
+[Ag_48] >>Voltage Levels in Regulatory Standard Range ---->1.0107   PHASE:   3
+[Ag_33] Error in internal action '.send("dMS",tell,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:126): Receiver 'dMS' does not exists! Could not send <mid258,Ag_33,tell,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid258,Ag_33,tell,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_55] >>Voltage Levels in Regulatory Standard Range ---->1.0163   PHASE:   3
+[Ag_49] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S49A   Ph:   Phase 2  Value::17.9055
+[Ag_52] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L52   Ph:   Phase 1  Value::312.551
+[Ag_Line_SW8] 
+
+ checking Voltages & currentes... Cycle::1
+[Ag_24] Error in internal action '.send("dMS",tell,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:126): Receiver 'dMS' does not exists! Could not send <mid259,Ag_24,tell,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid259,Ag_24,tell,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_3] Error in internal action '.send("dMS",tell,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:126): Receiver 'dMS' does not exists! Could not send <mid260,Ag_3,tell,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid260,Ag_3,tell,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_43] Error in internal action '.send("dMS",tell,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:126): Receiver 'dMS' does not exists! Could not send <mid261,Ag_43,tell,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid261,Ag_43,tell,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_32] No failure event was generated for +!statusSystem(0)[code(.send("dMS",tell,simulationStatus(0))),code_line(126),code_src("C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl"),error(unknown),error_msg(""),source(self)]
+[Ag_33] No failure event was generated for +!statusSystem(0)[code(.send("dMS",tell,simulationStatus(0))),code_line(126),code_src("C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl"),error(unknown),error_msg(""),source(self)]
+[Ag_50] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S50C   Ph:   Phase 1  Value::18.4309
+[Ag_46] Error in internal action '.send("dMS",tell,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:126): Receiver 'dMS' does not exists! Could not send <mid262,Ag_46,tell,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid262,Ag_46,tell,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_Line_SW7] Error in internal action '.send("dMS",tell,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:126): Receiver 'dMS' does not exists! Could not send <mid263,Ag_Line_SW7,tell,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid263,Ag_Line_SW7,tell,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_8] >>Current little OUT OF NORMAL RANGE 0 - 400Amp (100%*) <<>> Line3--->Line.L10   PHASE:   Phase 3  Value::455.247
+[Ag_8] Error in internal action '.send("dMS",tell,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:126): Receiver 'dMS' does not exists! Could not send <mid264,Ag_8,tell,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid264,Ag_8,tell,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_37] Error in internal action '.send("dMS",tell,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:126): Receiver 'dMS' does not exists! Could not send <mid265,Ag_37,tell,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid265,Ag_37,tell,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_46] No failure event was generated for +!statusSystem(0)[code(.send("dMS",tell,simulationStatus(0))),code_line(126),code_src("C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl"),error(unknown),error_msg(""),source(self)]
+[Ag_Line_SW7] No failure event was generated for +!statusSystem(0)[code(.send("dMS",tell,simulationStatus(0))),code_line(126),code_src("C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl"),error(unknown),error_msg(""),source(self)]
+[Ag_25r] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L25   Ph:   Phase 2  Value::18.5255
+[Ag_45] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S45A   Ph:   Phase 2  Value::9.31695
+[Ag_37] No failure event was generated for +!statusSystem(0)[code(.send("dMS",tell,simulationStatus(0))),code_line(126),code_src("C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl"),error(unknown),error_msg(""),source(self)]
+[Ag_43] No failure event was generated for +!statusSystem(0)[code(.send("dMS",tell,simulationStatus(0))),code_line(126),code_src("C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl"),error(unknown),error_msg(""),source(self)]
+[Ag_45] Error in internal action '.send("dMS",tell,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:126): Receiver 'dMS' does not exists! Could not send <mid266,Ag_45,tell,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid266,Ag_45,tell,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_45] No failure event was generated for +!statusSystem(0)[code(.send("dMS",tell,simulationStatus(0))),code_line(126),code_src("C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl"),error(unknown),error_msg(""),source(self)]
+[Ag_3] No failure event was generated for +!statusSystem(0)[code(.send("dMS",tell,simulationStatus(0))),code_line(126),code_src("C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl"),error(unknown),error_msg(""),source(self)]
+[Ag_8] No failure event was generated for +!statusSystem(0)[code(.send("dMS",tell,simulationStatus(0))),code_line(126),code_src("C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl"),error(unknown),error_msg(""),source(self)]
+[Ag_44] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L44   Ph:   Phase 1  Value::18.6225
+[Ag_25r] Error in internal action '.send("dMS",tell,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:126): Receiver 'dMS' does not exists! Could not send <mid267,Ag_25r,tell,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid267,Ag_25r,tell,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_25r] No failure event was generated for +!statusSystem(0)[code(.send("dMS",tell,simulationStatus(0))),code_line(126),code_src("C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl"),error(unknown),error_msg(""),source(self)]
+[Ag_7]   FALT ALERT***!!!
+
+[Ag_51] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L51   Ph:   Phase 2  Value::0.00132443
+[Ag_49] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line3--->Load.S49B   Ph:   Phase 1  Value::35.002
+[Ag_52] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L52   Ph:   Phase 2  Value::244.711
+[Ag_48] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Load.S48   Ph:   Phase 1  Value::35.8218
+[Ag_55] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line1--->Line.L56   Ph:   Phase 1  Value::7.36573E-4
+[Ag_58] >>Current: Normal Range----> 0 - 400Amp (100%*)  <<>>  Line2--->Load.S58B   Ph:   Phase 2  Value::9.31695
+[Ag_58] Error in internal action '.send("dMS",tell,simulationStatus(H))' (C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl:126): Receiver 'dMS' does not exists! Could not send <mid268,Ag_58,tell,dMS,simulationStatus(0)>
+jason.ReceiverNotFoundException: Receiver 'dMS' does not exists! Could not send <mid268,Ag_58,tell,dMS,simulationStatus(0)>
+	at jason.infra.centralised.CentralisedAgArch.sendMsg(CentralisedAgArch.java:255)
+	at jason.architecture.AgArch.sendMsg(AgArch.java:245)
+	at jason.stdlib.send.delegateSendToArch(send.java:230)
+	at jason.stdlib.send.execute(send.java:179)
+	at jason.asSemantics.TransitionSystem.applyExecInt(TransitionSystem.java:684)
+	at jason.asSemantics.TransitionSystem.applySemanticRule(TransitionSystem.java:224)
+	at jason.asSemantics.TransitionSystem.reasoningCycle(TransitionSystem.java:1438)
+	at jason.infra.centralised.CentralisedAgArch.run(CentralisedAgArch.java:205)
+	at java.lang.Thread.run(Thread.java:745)
+
+[Ag_58] No failure event was generated for +!statusSystem(0)[code(.send("dMS",tell,simulationStatus(0))),code_line(126),code_src("C:/Users/matheus/Desktop/TESE/workspace/masReconfig_phase3/src/agt/participantBus.asl"),error(unknown),error_msg(""),source(self)]

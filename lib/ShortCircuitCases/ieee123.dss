@@ -1,0 +1,761 @@
+// PROJECT: IEEE_123_LVRtapsFixed - https://www.xendee.com/Studio/Launch/570490b3-56ab-437d-b086-771ca86be0e1
+// STUDY: short circuit: classical method study
+// SNAPSHOT: 1/2
+// DATE GENERATED: Sun, 15 May 2016 18:49:42 GMT
+
+// This script was auto-created by www.xendee.com for execution on OpenDSS version 7.6.4.70.
+// Learn more about OpenDSS at http://smartgrid.epri.com/SimulationTool.aspx
+
+Clear
+Set DefaultBaseFrequency=50
+
+// Source bus
+New "Circuit.ieee123" phases=3 BasekV=115 pu=1 Angle=0 BaseMVA=100 MVAsc1=4000 MVAsc3=4000 X1R1=10 X0R0=10
+
+// Loads and motors
+New "Load.load 106b" Bus1="load 106b.2.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load 68a" Bus1="load 68a.1.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load 76a" Bus1="load 76a.1.2" phases=1 Conn="delta" kV=4.16 kVA=88.05031447 Pf=0.795 Vminpu=0.95 Model=5 Enabled=False
+New "Load.load 76c" Bus1="load 76c.1.3" phases=1 Conn="delta" kV=4.16 kVA=85.995086 Pf=0.814 Vminpu=0.95 Model=5 Enabled=False
+New "Load.load S100c" Bus1="load S100c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S102c" Bus1="load S102c.3.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S103c" Bus1="load S103c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S104c" Bus1="load S104c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S107b" Bus1="load S107b.2.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S109a" Bus1="load S109a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S10a" Bus1="load S10a.1.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=5 Enabled=False
+New "Load.load S111a" Bus1="load S111a.1.0" phases=1 Conn="wye" kV=2.14 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S112a" Bus1="load S112a.1.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=5 Enabled=False
+New "Load.load S113a" Bus1="load S113a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S114a" Bus1="load S114a.1.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S11a" Bus1="load S11a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S12b" Bus1="load S12b.2.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S16c" Bus1="load S16c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S17c" Bus1="load S17c.3.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S19a" Bus1="load S19a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S1a" Bus1="load S1a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S20a" Bus1="load S20a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=5 Enabled=False
+New "Load.load S22b" Bus1="load S22b.2.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S24c" Bus1="load S24c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S28a" Bus1="load S28a.1.2.3.0" phases=3 Conn="wye" kV=4.16 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=5 Enabled=False
+New "Load.load S29a" Bus1="load S29a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S2b" Bus1="load S2b.2.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S30c" Bus1="load S30c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S31c" Bus1="load S31c.3.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S32c" Bus1="load S32c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S33a" Bus1="load S33a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=5 Enabled=False
+New "Load.load S34c" Bus1="load S34c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S35a" Bus1="load S35a.1.2" phases=1 Conn="delta" kV=4.16 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S37a" Bus1="load S37a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S38b" Bus1="load S38b.2.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=5 Enabled=False
+New "Load.load S39b" Bus1="load S39b.2.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S41c" Bus1="load S41c.3.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S42a" Bus1="load S42a.1.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S43b" Bus1="load S43b.2.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S45a" Bus1="load S45a.1.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=5 Enabled=False
+New "Load.load S46a" Bus1="load S46a.1.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S47" Bus1="load S47.1.2.3.0" phases=3 Conn="wye" kV=4.16 kVA=128.99262899 Pf=0.814 Vminpu=0.95 Model=5 Enabled=False
+New "Load.load S48" Bus1="load S48.1.2.3.0" phases=3 Conn="wye" kV=4.16 kVA=257.98525799 Pf=0.814 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S49a" Bus1="load S49a.1.0" phases=1 Conn="wye" kV=2.4 kVA=42.997543 Pf=0.814 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S49b" Bus1="load S49b.2.0" phases=1 Conn="wye" kV=2.4 kVA=85.995086 Pf=0.814 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S49c" Bus1="load S49c.3.0" phases=1 Conn="wye" kV=2.4 kVA=40.32258065 Pf=0.868 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S4c" Bus1="load S4c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S50c" Bus1="load S50c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S51a" Bus1="load S51a.1.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S52a" Bus1="load S52a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S53a" Bus1="load S53a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S55a" Bus1="load S55a.1.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S56b" Bus1="load S56b.2.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S58b" Bus1="load S58b.2.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=5 Enabled=False
+New "Load.load S59b" Bus1="load S59b.2.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S5c" Bus1="load S5c.3.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=5 Enabled=False
+New "Load.load S60a" Bus1="load S60a.1.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S62c" Bus1="load S62c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S63a" Bus1="load S63a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S64b" Bus1="load S64b.2.0" phases=1 Conn="wye" kV=2.4 kVA=82.78145695 Pf=0.906 Vminpu=0.95 Model=5 Enabled=False
+New "Load.load S65a" Bus1="load S65a.1.2" phases=1 Conn="delta" kV=4.16 kVA=42.997543 Pf=0.814 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S65b" Bus1="load S65b.2.3" phases=1 Conn="delta" kV=4.16 kVA=42.997543 Pf=0.814 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S65c" Bus1="load S65c.1.3" phases=1 Conn="delta" kV=4.16 kVA=85.995086 Pf=0.814 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S66c" Bus1="load S66c.3.0" phases=1 Conn="wye" kV=2.4 kVA=82.78145695 Pf=0.906 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S69a" Bus1="load S69a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S6c" Bus1="load S6c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S70a" Bus1="load S70a.1.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S71a" Bus1="load S71a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S73c" Bus1="load S73c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S74c" Bus1="load S74c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S75c" Bus1="load S75c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S76b" Bus1="load S76b.2.3" phases=1 Conn="delta" kV=4.16 kVA=85.995086 Pf=0.814 Vminpu=0.95 Model=5 Enabled=False
+New "Load.load S77b" Bus1="load S77b.2.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S79a" Bus1="load S79a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=2 Enabled=False
+New "Load.load S7a" Bus1="load S7a.1.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S80b" Bus1="load S80b.2.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S82a" Bus1="load S82a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S83c" Bus1="load S83c.3.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S84c" Bus1="load S84c.3.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S85c" Bus1="load S85c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S86b" Bus1="load S86b.2.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S87b" Bus1="load S87b.2.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S88a" Bus1="load S88a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S90b" Bus1="load S90b.2.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=5 Enabled=False
+New "Load.load S92c" Bus1="load S92c.3.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S94a" Bus1="load S94a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S95b" Bus1="load S95b.2.0" phases=1 Conn="wye" kV=2.4 kVA=22.37136465 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S98a" Bus1="load S98a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S99b" Bus1="load S99b.2.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+New "Load.load S9a" Bus1="load S9a.1.0" phases=1 Conn="wye" kV=2.4 kVA=44.74272931 Pf=0.894 Vminpu=0.95 Model=1 Enabled=False
+
+// Capacitors
+New "Capacitor.capacitor 01" Bus1="capacitor 01.1.2.3" phases=3 kV=4.16 kVAR=600 Enabled=False
+New "Capacitor.capacitor 02" Bus1="capacitor 02.1" phases=1 kV=2.4 kVAR=50 Enabled=False
+New "Capacitor.capacitor 03" Bus1="capacitor 03.2" phases=1 kV=2.4 kVAR=50 Enabled=False
+New "Capacitor.capacitor 04" Bus1="capacitor 04.3" phases=1 kV=2.4 kVAR=50 Enabled=False
+
+// Wire data
+New "WireData.WD-IEEE 336.4 ACSR" Rac=0.057955 GMRac=0.0244 Diam=0.721 Normamps=530 Runits="kft" GMRUnits="m" Radunits="cm"
+New "WireData.WD-IEEE 4/0 ACSR" Rac=0.112121 GMRac=0.00814 Diam=0.563 Normamps=340 Runits="kft" GMRUnits="m" Radunits="cm"
+New "WireData.WD-IEEE 1/0 ACSR" Rac=0.212121 GMRac=0.00446 Diam=0.398 Normamps=230 Runits="kft" GMRUnits="m" Radunits="cm"
+
+// Wire geometery data
+New "LineGeometry.GD-L115" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L1" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L10" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L100" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L101" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L102" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L103" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L104" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L105" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L106" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L107" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L108" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L109" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L11" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L110" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L111" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L112" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L113" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L114" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.05 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L116" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L117" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L118" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L12" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L13" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L15" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L16" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L17" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L18" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L19" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L2" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L20" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L21" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L22" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L23" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L24" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L25a" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L25c" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L26" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L27a" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L27c" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L28" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L29" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.05 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L3" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L30" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L31" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L32" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L33" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L34" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L35a" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L35b" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L36" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L37" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L38" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L39" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L4" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L40" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=-0.5 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L41" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L42" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L43" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L44" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L45" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L46" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L47" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L48" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L49" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L5" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L50" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-line L51" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L52" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L53" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L54" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L55" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L56" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L57" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L58" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L59" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L6" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L60" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L66" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L67" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L68" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L69" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L7" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L70" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L71" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L72" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L73" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L74" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L75" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L76" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L77" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L78" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L79" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L8" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L80" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L81" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L82" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L83" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L84" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L86" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L87" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L88" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L89" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L9" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L90" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L91" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L92" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L93" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L94" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L96" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L97" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L98" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Line L99" nconds=4 nphases=3
+~ cond=1 wire="WD-IEEE 336.4 ACSR" X=3.5 h=28 Units="m"
+~ cond=2 wire="WD-IEEE 336.4 ACSR" X=-3.5 h=28 Units="m"
+~ cond=3 wire="WD-IEEE 336.4 ACSR" X=-1.5 h=28 Units="m"
+~ cond=4 wire="WD-IEEE 4/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-Linie L14" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=0 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0.5 h=24 Units="m" reduce="y"
+New "LineGeometry.GD-LS85c" nconds=2 nphases=1
+~ cond=1 wire="WD-IEEE 1/0 ACSR" X=-0.5 h=29 Units="m"
+~ cond=2 wire="WD-IEEE 1/0 ACSR" X=0 h=24 Units="m" reduce="y"
+
+// Linecodes
+New "Linecode.LC-custom_a011d926-5dec-4b76-8c93-1605211b405a" nphases=3 R1=0.19209 X1=0.09152 R0=0.48244 X0=0.23749 C1=0 C0=0 Units="kft" Normamps=310
+New "Linecode.LC-custom_33a99175-699e-4db7-b0f5-6ae675a1ec18" nphases=3 R1=0.19209 X1=0.09152 R0=0.48244 X0=0.23749 C1=0 C0=0 Units="kft" Normamps=310
+New "Linecode.LC-custom_2941b767-5415-4cad-88d3-28c438cf4f7f" nphases=3 R1=0.19209 X1=0.09152 R0=0.48244 X0=0.23749 C1=0 C0=0 Units="kft" Normamps=310
+New "Linecode.LC-custom_e83a4960-972f-43df-8725-199900c66e03" nphases=3 R1=0.19209 X1=0.09152 R0=0.48244 X0=0.23749 C1=0 C0=0 Units="kft" Normamps=310
+New "Linecode.LC-custom_a91dcd83-1bbf-4004-b6c8-c490a7ad41b6" nphases=3 R1=0.19209 X1=0.09152 R0=0.48244 X0=0.23749 C1=0 C0=0 Units="kft" Normamps=310
+
+
+// *****************Wire connectivity
+Redirect DefLines.DSS
+
+
+// Lines, Automatic Transfer Switches (ATS) and Direct Connections
+New "Line.cap 1" Bus1="83.1.2.3" Bus2="capacitor 01.1.2.3" phases=3 Switch=True
+New "Line.Cap 2" Bus1="88.1" Bus2="capacitor 02.1" phases=1 Switch=True
+New "Line.cap 3" Bus1="90.2" Bus2="capacitor 03.2" phases=1 Switch=True
+New "Line.Cap 4" Bus1="92.3" Bus2="capacitor 04.3" phases=1 Switch=True
+New "Line.conn 02" Bus1="250.1.2.3" Bus2="251.1.2.3" phases=3 Switch=True
+New "Line.Load.231c" Bus1="31.3" Bus2="load S31c.3" phases=1 Switch=True
+New "Line.Load.S100c" Bus1="100.3" Bus2="load S100c.3" phases=1 Switch=True
+New "Line.Load.S102c" Bus1="102.3" Bus2="load S102c.3" phases=1 Switch=True
+New "Line.Load.S103c" Bus1="103.3" Bus2="load S103c.3" phases=1 Switch=True
+New "Line.Load.S104c" Bus1="104.3" Bus2="load S104c.3" phases=1 Switch=True
+New "Line.Load.S106b" Bus1="106.2" Bus2="load 106b.2" phases=1 Switch=True
+New "Line.Load.S107b" Bus1="107.2" Bus2="load S107b.2" phases=1 Switch=True
+New "Line.Load.S109a" Bus1="109.1" Bus2="load S109a.1" phases=1 Switch=True
+New "Line.Load.S10a" Bus1="10.1" Bus2="load S10a.1" phases=1 Switch=True
+New "Line.Load.S111a" Bus1="111.1" Bus2="load S111a.1" phases=1 Switch=True
+New "Line.Load.S112a" Bus1="112.1" Bus2="load S112a.1" phases=1 Switch=True
+New "Line.Load.S113a" Bus1="113.1" Bus2="load S113a.1" phases=1 Switch=True
+New "Line.Load.S114a" Bus1="114.1" Bus2="load S114a.1" phases=1 Switch=True
+New "Line.Load.S11a" Bus1="11.1" Bus2="load S11a.1" phases=1 Switch=True
+New "Line.Load.S12b" Bus1="12.2" Bus2="load S12b.2" phases=1 Switch=True
+New "Line.Load.S16c" Bus1="16.3" Bus2="load S16c.3" phases=1 Switch=True
+New "Line.Load.S17c" Bus1="17.3" Bus2="load S17c.3" phases=1 Switch=True
+New "Line.Load.S19a" Bus1="19.1" Bus2="load S19a.1" phases=1 Switch=True
+New "Line.Load.S1a" Bus1="01.1" Bus2="load S1a.1" phases=1 Switch=True
+New "Line.Load.S20a" Bus1="20.1" Bus2="load S20a.1" phases=1 Switch=True
+New "Line.Load.S22b" Bus1="22.2" Bus2="load S22b.2" phases=1 Switch=True
+New "Line.Load.S24c" Bus1="24.3" Bus2="load S24c.3" phases=1 Switch=True
+New "Line.Load.S28a" Bus1="28.1.2.3" Bus2="load S28a.1.2.3" phases=3 Switch=True
+New "Line.Load.S29a" Bus1="29.1" Bus2="load S29a.1" phases=1 Switch=True
+New "Line.Load.S2b" Bus1="02.2" Bus2="load S2b.2" phases=1 Switch=True
+New "Line.Load.S30c" Bus1="30.3" Bus2="load S30c.3" phases=1 Switch=True
+New "Line.Load.S32c" Bus1="32.3" Bus2="load S32c.3" phases=1 Switch=True
+New "Line.Load.S33a" Bus1="33.1" Bus2="load S33a.1" phases=1 Switch=True
+New "Line.Load.S34c" Bus1="34.3" Bus2="load S34c.3" phases=1 Switch=True
+New "Line.Load.S35a" Bus1="35.1.2" Bus2="load S35a.1.2" phases=2 Switch=True
+New "Line.Load.S37a" Bus1="37.1" Bus2="load S37a.1" phases=1 Switch=True
+New "Line.Load.S38b" Bus1="38.2" Bus2="load S38b.2" phases=1 Switch=True
+New "Line.Load.S39b" Bus1="39.2" Bus2="load S39b.2" phases=1 Switch=True
+New "Line.Load.S41c" Bus1="41.3" Bus2="load S41c.3" phases=1 Switch=True
+New "Line.Load.S42a" Bus1="42.1" Bus2="load S42a.1" phases=1 Switch=True
+New "Line.Load.S43b" Bus1="43.2" Bus2="load S43b.2" phases=1 Switch=True
+New "Line.Load.S45a" Bus1="45.1" Bus2="load S45a.1" phases=1 Switch=True
+New "Line.Load.S46a" Bus1="46.1" Bus2="load S46a.1" phases=1 Switch=True
+New "Line.Load.S47" Bus1="47.1.2.3" Bus2="load S47.1.2.3" phases=3 Switch=True
+New "Line.Load.S48" Bus1="48.1.2.3" Bus2="load S48.1.2.3" phases=3 Switch=True
+New "Line.Load.S49a" Bus1="49.1" Bus2="load S49a.1" phases=1 Switch=True
+New "Line.Load.S49b" Bus1="49.2" Bus2="load S49b.2" phases=1 Switch=True
+New "Line.Load.S49c" Bus1="49.3" Bus2="load S49c.3" phases=1 Switch=True
+New "Line.Load.S4c" Bus1="04.3" Bus2="load S4c.3" phases=1 Switch=True
+New "Line.Load.S50c" Bus1="50.3" Bus2="load S50c.3" phases=1 Switch=True
+New "Line.Load.S51a" Bus1="51.1" Bus2="load S51a.1" phases=1 Switch=True
+New "Line.Load.S52a" Bus1="52.1" Bus2="load S52a.1" phases=1 Switch=True
+New "Line.Load.S53a" Bus1="53.1" Bus2="load S53a.1" phases=1 Switch=True
+New "Line.Load.S55a" Bus1="55.1" Bus2="load S55a.1" phases=1 Switch=True
+New "Line.Load.S56b" Bus1="56.2" Bus2="load S56b.2" phases=1 Switch=True
+New "Line.Load.S58b" Bus1="58.2" Bus2="load S58b.2" phases=1 Switch=True
+New "Line.Load.S59b" Bus1="59.2" Bus2="load S59b.2" phases=1 Switch=True
+New "Line.Load.S5c" Bus1="05.3" Bus2="load S5c.3" phases=1 Switch=True
+New "Line.Load.S60a" Bus1="60.1" Bus2="load S60a.1" phases=1 Switch=True
+New "Line.Load.S62c" Bus1="62.3" Bus2="load S62c.3" phases=1 Switch=True
+New "Line.Load.S63a" Bus1="63.1" Bus2="load S63a.1" phases=1 Switch=True
+New "Line.Load.S64b" Bus1="64.2" Bus2="load S64b.2" phases=1 Switch=True
+New "Line.Load.S65a" Bus1="65.1.2" Bus2="load S65a.1.2" phases=2 Switch=True
+New "Line.Load.S65b" Bus1="65.2.3" Bus2="load S65b.2.3" phases=2 Switch=True
+New "Line.Load.S65c" Bus1="65.1.3" Bus2="load S65c.1.3" phases=2 Switch=True
+New "Line.Load.S66c" Bus1="66.3" Bus2="load S66c.3" phases=1 Switch=True
+New "Line.Load.S68a" Bus1="68.1" Bus2="load 68a.1" phases=1 Switch=True
+New "Line.Load.S69a" Bus1="69.1" Bus2="load S69a.1" phases=1 Switch=True
+New "Line.Load.S6c" Bus1="06.3" Bus2="load S6c.3" phases=1 Switch=True
+New "Line.Load.S70a" Bus1="70.1" Bus2="load S70a.1" phases=1 Switch=True
+New "Line.Load.S71a" Bus1="71.1" Bus2="load S71a.1" phases=1 Switch=True
+New "Line.Load.S73c" Bus1="73.3" Bus2="load S73c.3" phases=1 Switch=True
+New "Line.Load.S74c" Bus1="74.3" Bus2="load S74c.3" phases=1 Switch=True
+New "Line.Load.S75c" Bus1="75.3" Bus2="load S75c.3" phases=1 Switch=True
+New "Line.Load.S76a" Bus1="76.1.2" Bus2="load 76a.1.2" phases=2 Switch=True
+New "Line.Load.S76b" Bus1="76.2.3" Bus2="load S76b.2.3" phases=2 Switch=True
+New "Line.Load.S76c" Bus1="76.1.3" Bus2="load 76c.1.3" phases=2 Switch=True
+New "Line.Load.S77b" Bus1="77.2" Bus2="load S77b.2" phases=1 Switch=True
+New "Line.Load.S79a" Bus1="79.1" Bus2="load S79a.1" phases=1 Switch=True
+New "Line.Load.S7a" Bus1="07.1" Bus2="load S7a.1" phases=1 Switch=True
+New "Line.Load.S80b" Bus1="80.2" Bus2="load S80b.2" phases=1 Switch=True
+New "Line.Load.S82a" Bus1="82.1" Bus2="load S82a.1" phases=1 Switch=True
+New "Line.Load.S83c" Bus1="83.3" Bus2="load S83c.3" phases=1 Switch=True
+New "Line.Load.S84c" Bus1="84.3" Bus2="load S84c.3" phases=1 Switch=True
+New "Line.Load.S85c" Bus1="85.3" Bus2="load S85c.3" phases=1 Switch=True
+New "Line.Load.S86b" Bus1="86.2" Bus2="load S86b.2" phases=1 Switch=True
+New "Line.Load.S87b" Bus1="87.2" Bus2="load S87b.2" phases=1 Switch=True
+New "Line.Load.S88a" Bus1="88.1" Bus2="load S88a.1" phases=1 Switch=True
+New "Line.Load.S90b" Bus1="90.2" Bus2="load S90b.2" phases=1 Switch=True
+New "Line.Load.S92c" Bus1="92.3" Bus2="load S92c.3" phases=1 Switch=True
+New "Line.Load.S94a" Bus1="94.1" Bus2="load S94a.1" phases=1 Switch=True
+New "Line.Load.S95b" Bus1="95.2" Bus2="load S95b.2" phases=1 Switch=True
+New "Line.Load.S98a" Bus1="98.1" Bus2="load S98a.1" phases=1 Switch=True
+New "Line.Load.S99b" Bus1="99.2" Bus2="load S99b.2" phases=1 Switch=True
+New "Line.Load.S9a" Bus1="09.1" Bus2="load S9a.1" phases=1 Switch=True
+
+
+
+
+//**********************
+Redirect recon.dss
+
+
+
+// Transformers
+New "Transformer.Reg1a" phases=1 Windings=2 XHL=0.00070746 %LoadLoss=0.00070675
+~ wdg=1 Bus="150.1.0" kV=2.4 kVA=2000 Conn="wye"
+~ wdg=2 Bus="150r.1.0" kV=2.4 kVA=2000 Conn="wye" MinTap=0.9 MaxTap=1.1 NumTaps=32 Tap=1.0437
+New "Transformer.Reg1b" phases=1 Windings=2 XHL=0.00070746 %LoadLoss=0.00070675
+~ wdg=1 Bus="150.2.0" kV=2.4 kVA=2000 Conn="wye"
+~ wdg=2 Bus="150r.2.0" kV=2.4 kVA=2000 Conn="wye" MinTap=0.9 MaxTap=1.1 NumTaps=32 Tap=1.0437
+New "Transformer.Reg1c" phases=1 Windings=2 XHL=0.00070746 %LoadLoss=0.00070675
+~ wdg=1 Bus="150.3.0" kV=2.4 kVA=2000 Conn="wye"
+~ wdg=2 Bus="150r.3.0" kV=2.4 kVA=2000 Conn="wye" MinTap=0.9 MaxTap=1.1 NumTaps=32 Tap=1.0437
+New "Transformer.Reg2a" phases=1 Windings=2 XHL=0.00070746 %LoadLoss=0.00070675
+~ wdg=1 Bus="09.1.0" kV=2.4 kVA=2000 Conn="wye"
+~ wdg=2 Bus="9r.1.0" kV=2.4 kVA=2000 Conn="wye" MinTap=0.9 MaxTap=1.1 NumTaps=32 Tap=0.9938
+New "Transformer.Reg3a" phases=1 Windings=2 XHL=0.00070746 %LoadLoss=0.00070675
+~ wdg=1 Bus="25.1.0" kV=2.4 kVA=2000 Conn="wye"
+~ wdg=2 Bus="25r.1.0" kV=2.4 kVA=2000 Conn="wye" MinTap=0.9 MaxTap=1.1 NumTaps=32 Tap=1
+New "Transformer.Reg3c" phases=1 Windings=2 XHL=0.00070746 %LoadLoss=0.00070675
+~ wdg=1 Bus="25.3.0" kV=2.4 kVA=2000 Conn="wye"
+~ wdg=2 Bus="25r.3.0" kV=2.4 kVA=2000 Conn="wye" MinTap=0.9 MaxTap=1.1 NumTaps=32 Tap=0.9938
+New "Transformer.Reg4a" phases=1 Windings=2 XHL=0.00070746 %LoadLoss=0.00070675
+~ wdg=1 Bus="160.1.0" kV=2.4 kVA=20000 Conn="wye"
+~ wdg=2 Bus="160r.1.0" kV=2.4 kVA=20000 Conn="wye" MinTap=0.9 MaxTap=1.1 NumTaps=32 Tap=1.05
+New "Transformer.Reg4b" phases=1 Windings=2 XHL=0.00070746 %LoadLoss=0.00070675
+~ wdg=1 Bus="160.2.0" kV=2.4 kVA=2000 Conn="wye"
+~ wdg=2 Bus="160r.2.0" kV=2.4 kVA=2000 Conn="wye" MinTap=0.9 MaxTap=1.1 NumTaps=32 Tap=1.0063
+New "Transformer.Reg4c" phases=1 Windings=2 XHL=0.00070746 %LoadLoss=0.00070675
+~ wdg=1 Bus="160.3.0" kV=2.4 kVA=2000 Conn="wye"
+~ wdg=2 Bus="160r.3.0" kV=2.4 kVA=2000 Conn="wye" MinTap=0.9 MaxTap=1.1 NumTaps=32 Tap=1.0313
+New "Transformer.t 01" phases=3 Windings=2 XHL=0.00070746 %LoadLoss=0.00070675
+~ wdg=1 Bus="sourcebus.1.2.3" kV=115 kVA=5000 Conn="delta"
+~ wdg=2 Bus="150.1.2.3.0" kV=4.16 kVA=5000 Conn="wye" MinTap=0.9 MaxTap=1.1 NumTaps=32 Tap=1
+New "Transformer.XFM1" phases=3 Windings=2 XHL=2.72016334 %LoadLoss=1.26519225
+~ wdg=1 Bus="61s.1.2.3" kV=4.16 kVA=150 Conn="delta"
+~ wdg=2 Bus="610.1.2.3" kV=0.48 kVA=150 Conn="delta" MinTap=0.9 MaxTap=1.1 NumTaps=32 Tap=1
+
+// Voltage bases
+Set VoltageBases=[115 4.16 0.48]
+CalcVoltageBases
+
+
+Redirect BusCoordinates
+
+New EnergyMeter.Feeder Line.L115 1
+ 
+!New EnergyMeter.SW1 "Line.Switch 1" 1
+!New EnergyMeter.SW2 "Line.Switch 2" 1
+!New EnergyMeter.SW3 "Line.Switch 3" 1
+!New EnergyMeter.SW4 "Line.Switch 4" 1
+!New EnergyMeter.SW5 "Line.Switch 5" 1
+!New EnergyMeter.SW6 "Line.Switch 6" 1
+!New EnergyMeter.SW7 "Line.Switch 7" 1
+!New EnergyMeter.SW8 "Line.Switch 8" 1
+
+Transformer.reg1a.wdg=2 Tap=(0.00625  7  * 1 +)   ! Tap 7
+Transformer.reg2a.wdg=2 Tap=(0.00625 -1 * 1 +)    ! Tap -1
+Transformer.reg3a.wdg=2 Tap=(0.00625  0  * 1 +)   ! Tap 0
+Transformer.reg3c.wdg=2 Tap=(0.00625 -1 * 1 +)    ! Tap -1
+Transformer.reg4a.wdg=2 Tap=(0.00625  8 * 1 +)    ! Tap 8
+Transformer.reg4b.wdg=2 Tap=(0.00625  1 * 1 +)    ! Tap 1
+Transformer.reg4c.wdg=2 Tap=(0.00625  5 * 1 +)    ! Tap 5
+
+
+
+
+Plot Profile
+
+redirect CircuitPlottingScripts.dss
+
+
+solve

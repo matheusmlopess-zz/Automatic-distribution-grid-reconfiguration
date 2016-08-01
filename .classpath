@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="**/*.asl" kind="src" path="src/agt"/>
+	<classpathentry excluding="*.ptl" kind="src" path="src/int"/>
+	<classpathentry excluding="*.xml" kind="src" path="src/org"/>
+	<classpathentry kind="src" path="src/env"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JaCaMo"/>
+	<classpathentry kind="lib" path="lib/com4j.jar"/>
+	<classpathentry kind="lib" path="lib/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="lib/opencsv-3.6.jar"/>
+	<classpathentry kind="lib" path="lib/OpenDSS.jar"/>
+	<classpathentry kind="lib" path="lib/gs-algo-1.3-sources.jar"/>
+	<classpathentry kind="lib" path="lib/gs-algo-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/gs-core-1.3-sources.jar"/>
+	<classpathentry kind="lib" path="lib/gs-core-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/gs-ui-1.3-sources.jar"/>
+	<classpathentry kind="lib" path="lib/gs-ui-1.3.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/testeGUI"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

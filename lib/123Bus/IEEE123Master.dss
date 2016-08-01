@@ -1,0 +1,98 @@
+! Annotated Master file for the IEEE 123-bus test case.
+!
+! This file is meant to be invoked from the Compile command in the "Run_IEEE123Bus.DSS"  file.
+! 
+! Note: DSS commands, property names, etc., are NOT case sensitive. Capitalize as you please.
+! You should always do a "Clear" before making a new circuit:
+
+Clear
+
+! INSTANTIATE A NEW CIRCUIT AND DEFINE A STIFF 4160V SOURCE
+! The new circuit is called "ieee123"
+! This creates a Vsource object connected to "sourcebus". This is now the active circuit element, so
+! you can simply continue to edit its property value. 
+! The basekV is redefined to 4.16 kV. The bus name is changed to "150" to match one of the buses in the test feeder.
+! The source is set for 1.0 per unit and the Short circuit impedance is set to a small value (0.0001 ohms)
+! The ~ is just shorthad for "more" for the New or Edit commands
+
+New object=circuit.ieee123
+~ basekv=4.16 Bus1=150 pu=1.00 R1=0 X1=0.0001 R0=0 X0=0.0001
+
+! 3-PHASE GANGED REGULATOR AT HEAD OF FEEDER (KERSTING ASSUMES NO IMPEDANCE IN THE REGULATOR)
+! the first line defines the 3-phase transformer to be controlled by the regulator control.
+! The 2nd line defines the properties of the regulator control according to the test case
+
+new transformer.reg1a phases=3 windings=2 buses=[150 150r] conns=[wye wye] kvs=[4.16 4.16] kvas=[5000 5000] XHL=.001 %LoadLoss=0.00001 ppm=0.0
+new regcontrol.creg1a transformer=reg1a winding=2 vreg=120 band=2 ptratio=20 ctprim=700 R=3 X=7.5
+
+! REDIRECT INPUT STREAM TO FILE CONTAINING DEFINITIONS OF LINECODES
+! This file defines the line impedances is a similar manner to the description in the test case.
+
+Redirect        IEEELinecodes.DSS
+
+! LINE DEFINITIONS
+! Lines are defined by referring to a "linecode" that contains the impedances per unit length
+! So the only properties required are the LineCode name and Length.  Units are assumed to match the definition
+! since no units property is defined in either the Linecodes file or this file.
+! Note that it is not necessary to explicitly specify the node connections for the 3-phase lines
+! unless they are not ".1.2.3". However, they are spelled out here for clarity.
+! The DSS assumes .1.2.3.0.0 ... for connections of 3 or more phases.
+! Likewise, .1 is not necessary for 1-phase lines connected to phase 1. However, if it is connected
+! to any other phase, it must be specified. For completeness, everything is spelled out here.
+!
+! Note that it is recommended that the "units=" property be used here and in the Linecode definition as well
+! to avoid confusion in the future
+
+! *** Original *** New Line.L115   Phases=3 Bus1=149.1.2.3  Bus2=1.1.2.3    LineCode=1    Length=0.4
+! Since the default is 3-phase, the definition of this line can be simpler:
+!*****************/////////
+
+Redirect DefineLines.DSS
+
+! NORMALLY CLOSED SWITCHES ARE DEFINED AS SHORT LINES
+! Could also be defned by setting the Switch=Yes property
+!*****************/////////
+
+
+Redirect recon.DSS
+
+! LOAD TRANSFORMER AT 61s/610
+! This is a 150 kVA Delta-Delta stepdown from 4160V to 480V.
+
+New Transformer.XFM1  Phases=3   Windings=2 Xhl=2.72
+~ wdg=1 bus=61s       conn=Delta kv=4.16    kva=150    %r=0.635
+~ wdg=2 bus=610       conn=Delta kv=0.48    kva=150    %r=0.635
+
+! CAPACITORS
+! Capacitors are 2-terminal devices. The 2nd terminal (Bus2=...) defaults to all phases
+! connected to ground (Node 0). Thus, it need not be specified if a Y-connected or L-N connected
+! capacitor is desired
+
+New Capacitor.C83       Bus1=83      Phases=3     kVAR=600     kV=4.16
+New Capacitor.C88a      Bus1=88.1    Phases=1     kVAR=50      kV=2.402
+New Capacitor.C90b      Bus1=90.2    Phases=1     kVAR=50      kV=2.402
+New Capacitor.C92c      Bus1=92.3    Phases=1     kVAR=50      kV=2.402
+
+
+!REGULATORS - REDIRECT TO DEFINITIONS FILE
+! This file contains definitions for the remainder of regulators on the feeder:
+
+!*****************/////////
+
+Redirect IEEE123Regulators.DSS
+
+! SPOT LOADS -- REDIRECT INPUT STREAM TO LOAD DEFINITIONS FILE
+
+!*****************/////////
+
+Redirect IEEE123Loads.DSS
+
+! All devices in the test feeder are now defined.
+!
+! Many of the voltages are reported in per unit, so it is important to establish the base voltages at each bus so
+! that we can compare with the result with greater ease.
+! We will let the DSS compute the voltage bases by doing a zero-load power flow.
+! There are only two voltage bases in the problem: 4160V and 480V. These must be expressed in kV
+
+Set VoltageBases = [4.16, 0.48]    ! ARRAY OF VOLTAGES IN KV
+CalcVoltageBases  ! PERFORMS ZERO LOAD POWER FLOW TO ESTIMATE VOLTAGE BASES

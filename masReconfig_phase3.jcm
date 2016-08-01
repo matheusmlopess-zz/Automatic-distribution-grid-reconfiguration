@@ -1,0 +1,11 @@
+
+mas masReconfig_phase3 {
+
+    agent simulationCall : simulationDSSSystem.asl 
+    agent dMS : dms.asl 
+        workspace grid_environment {
+        agents : simulationCall, dMS
+     	}
+		   class-path:  lib, src/env, src/int/intAct/create_agent2.java 
+		   asl-path  :  src/agt, src/agt/inc
+}
