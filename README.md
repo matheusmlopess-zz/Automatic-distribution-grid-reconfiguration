@@ -1,8 +1,10 @@
 
 ## PROJECT SCOPE: 
 Power distribution grid model for automatic reconfiguration using Agent-Based technology.
-![alt tag](http://imgur.com/0JmQzRA)
-![alt tag](http://i.imgur.com/sljKX66s.png)
+![alt tag](http://i.imgur.com/sljKX66.png)
+
+![alt tag](http://i.imgur.com/0JmQzRA.png)
+
 ![alt tag](http://i.imgur.com/FNJC5Wy.gif)
 
 The multi-Agent system application designed based on automatic reconfiguration principles was programmed as a set of AgentSpeak codes in which work and cooperate inside a common simulated distribution grid environment. Creating the application meant programming the agents on the one side, including the actions logic control to be executed relying on the environment changes, and  on the other side the environment itself. That stated, the environment  notion was solely based on the chosen distribution grid concept and explored according to the proposed problematic.
