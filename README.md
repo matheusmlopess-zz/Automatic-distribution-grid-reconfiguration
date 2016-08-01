@@ -9,7 +9,9 @@ Programming languges used:
    http://jacamo.sourceforge.net/
 
  Jason – for programming autonomous agents
+ 
  Cartago – for programming environment artifacts
+ 
  Moise – for programming multi-agent organisations
 
 - OpenDSS script language.
