@@ -41,6 +41,6 @@ The first proposed approach implemented a centralized model  which uses a graph-
 
 The second proposed approach provided a simple and effective method to handle outage management and was implemented based on a decentralized model for reconfiguration. The fundamental ideas implies on having agents widespread on the network which communicate to ask permission for zone energization. Power flow calculations with detailed network model are performed to ensure that the network topologies suggested either by the proposed algorithm or the decentralized approach will be operated within the electrical and operation limits.
 
-Project Author: Matheus Macedo Lopes
+Project author: Matheus Macedo Lopes
 
 Supervisor : Phd, Diego Issicaba
