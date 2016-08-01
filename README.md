@@ -1,13 +1,19 @@
 
 ## PROJECT SCOPE: 
 Power distribution grid model for automatic reconfiguration using Agent-Based technology.
-![alt tag](http://i.imgur.com/sljKX66.png)
-
-![alt tag](http://i.imgur.com/0JmQzRA.png)
-
-![alt tag](http://i.imgur.com/FNJC5Wy.gif)
 
 The multi-Agent system application designed based on automatic reconfiguration principles was programmed as a set of AgentSpeak codes in which work and cooperate inside a common simulated distribution grid environment. Creating the application meant programming the agents on the one side, including the actions logic control to be executed relying on the environment changes, and  on the other side the environment itself. That stated, the environment  notion was solely based on the chosen distribution grid concept and explored according to the proposed problematic.
+
+![alt tag](http://i.imgur.com/sljKX66.png)
+(An ideal model of distribution grid operating with Agent-Based Technology. Distribution grid acordin with the IEEE123 test feeder)
+
+![alt tag](http://i.imgur.com/0JmQzRA.png)
+(JaCaMo console runing the aplication)
+
+![alt tag](http://i.imgur.com/FNJC5Wy.gif)
+Centrilized solution simulation using Grapstream Dijkstra's algorithm. An algorithm for finding the shortest paths between nodes in a graph.
+
+
 
 Programming languages used:
 
