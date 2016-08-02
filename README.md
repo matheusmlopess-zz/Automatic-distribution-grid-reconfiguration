@@ -52,4 +52,4 @@ The second proposed approach provided a simple and effective method to handle ou
 
 Project author: Matheus Macedo Lopes
 
-Supervisor : Phd, Diego Issicaba
+Project Supervisor : Phd, Diego Issicaba
