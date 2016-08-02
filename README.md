@@ -18,7 +18,7 @@ Programming languages used:
 - Java
 
 As Java represents the main programming language of the overall MAS concept model, 
-the OpenDSS integrates the model supported by an API method. The API makes possible for applications like OpenDSS to run on top of a framework such as JaCaMo.That being stated, the OpenDSS package API gives access to the program Executive and Circuit element models.
+the OpenDSS integrates the model supported by an API method. The API makes possible for applications like OpenDSS to run on top of a framework such as JaCaMo.The OpenDSS package API gives access to the program Executive and Circuit element models.
 
 - JaCaMo framework for Multi-Agent Programming that combines three separate technologies:
 
