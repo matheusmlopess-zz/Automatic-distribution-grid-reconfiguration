@@ -8,10 +8,13 @@ The multi-Agent system application designed based on automatic reconfiguration p
 (An ideal model of distribution grid operating with Agent-Based Technology. Distribution grid used: The IEEE 123 node test feeder [info: https://ewh.ieee.org/soc/pes/dsacom/testfeeders/])
 
 ![alt tag](http://i.imgur.com/0JmQzRA.png)
-(JaCaMo console runing the aplication)
+(JaCaMo console runing aplication)
 
 ![alt tag](http://i.imgur.com/FNJC5Wy.gif)
-(Centrilized solution simulation using Grapstream Dijkstra's algorithm. An algorithm for finding the shortest paths between nodes in a graph.)
+(Centrilized/Hierarchical solution simulation using Grapstream Dijkstra's algorithm.)
+
+![alt tag](http://i.imgur.com/5lfZC20.gif)
+(Decentralized solution simulation using Grapstream Dijkstra's algorithm.)
 
 Programming languages used:
 
