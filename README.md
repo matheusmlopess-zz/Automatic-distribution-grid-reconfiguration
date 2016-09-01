@@ -10,11 +10,11 @@ The multi-Agent system application designed based on automatic reconfiguration p
 ![alt tag](http://i.imgur.com/0JmQzRA.png)
 (JaCaMo console runing aplication)
 
-![alt tag](http://i.imgur.com/FNJC5Wy.gif)
+![alt tag](http://i.imgur.com/pe3MrKu.gif)
 
 
 (Centrilized/Hierarchical solution simulation using Grapstream Dijkstra's algorithm.)
-[![alt tag](http://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=wUh-FNMfieU)
+
 ![alt tag](http://i.imgur.com/5lfZC20.gif)
 
 
