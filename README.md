@@ -49,7 +49,7 @@ the OpenDSS integrates the model supported by an API method. The API makes possi
    http://graphstream-project.org/doc/Algorithms/Shortest-path/Dijkstra/
 
 
-## Dissertation Project 
+## Final Remarks
 
 The Application model has been conducted in a context which promotes the use of agent-based technology to model a smart approach for the purpose of reconfiguration. For that matter, a framework for MAS that combines three separate state of the art technologies was choosen to suit this purpose: Jason, CArTaGo, Moise. Also an OpenDSS distribution grid model was integrated in the simulation platform, including all structures responsible to represent a three-phase distribution grid.
 
