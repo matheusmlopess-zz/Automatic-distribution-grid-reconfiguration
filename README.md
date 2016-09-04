@@ -18,9 +18,9 @@ The multi-Agent system application designed based on automatic reconfiguration p
 ![alt tag](http://i.imgur.com/5lfZC20.gif)
 
 
-(Decentralized solution simulation using Grapstream Dijkstra's algorithm.)
+(Decentralized solution simulation illustrating Agent-Agent Communication)
 
-Programming languages used:
+Programming languages:
 
 - Java
 
