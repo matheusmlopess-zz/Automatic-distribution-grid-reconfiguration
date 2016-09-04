@@ -85,9 +85,9 @@ public class ieee123dmsGUIvalidation{
 		// the program.
 		viewer.setCloseFramePolicy(Viewer.CloseFramePolicy.CLOSE_VIEWER);
 
-		// We connect back the viewer to the graph,
+		// connect back the viewer to the graph,
 		// the graph becomes a sink for the viewer.
-		// We also install us as a viewer listener to
+		// also install  as a viewer listener to
 		// intercept the graphic events.
 		// Edge lengths are stored in an attribute called "length"
 		// The length of a path is the sum of the lengths of its edges
@@ -277,7 +277,7 @@ public class ieee123dmsGUIvalidation{
 		    
 		System.out.println("\n Zone Swt eletrified found ->"+countPower +" & the number total of zones not energized is "+ (countNopower-2));
 		System.out.println("Generated Plan for task (1) ---> Zone Isolation & Swtih Coordination");
-		System.out.println("The Plan Generated to be executed in this Scenario are ask Agent responsable for --->"+ isolationPlan +" Close NormalÁy Open Switch\n");
+		System.out.println("The Plan Generated to be executed in this Scenario are ask Agent responsable for --->"+ isolationPlan +" Close Normal√ßy Open Switch\n");
 		Thread.sleep(500);
 
 		
